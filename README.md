@@ -3,7 +3,7 @@
 # Introduction
 This project demonstrates a simulated IT helpdesk environment using VirtualBox, Windows Server 2019, and Active Directory. The setup showcases core administrative skills, including user account management, group policy configuration, and basic troubleshooting techniques, designed to replicate real-world scenarios.
 
-### VirtualBox & Server 2019 Initial Set Up
+## VirtualBox & Server 2019 Initial Set Up
 
 <details>
 <summary>Steps to Configure VirtualBox and Install Server 2019</summary>
@@ -86,7 +86,7 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
 </details>
 
-### Creating Active Directory Domain Services
+## Creating Active Directory Domain Services
 
 <details>
 <summary> </summary>
