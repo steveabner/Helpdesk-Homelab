@@ -48,7 +48,12 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
   
      ![Screenshot 2024-12-30 104134](https://github.com/user-attachments/assets/7edc6fc4-1556-4406-96ee-de5e4400a55a)
 
-   
+ 7. **VirtualBox User Experience Tweaks**
+   - Now that the virtual machine is configured and operating properly, I noticed the mouse was laggy and the display scaling was a bit off. (see screenshot below)
+     ![Screenshot 2024-12-30 111039](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
+
+   - 
+     
 <!--## Setting up VirtualBox with Windows Server 2016
 
 <details>
