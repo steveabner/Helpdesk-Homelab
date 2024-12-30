@@ -86,6 +86,8 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
      ![Screenshot 2024-12-30 132656](https://github.com/user-attachments/assets/f9d96384-69ab-4fc2-8c42-b7196732c051)
 
+</details>
+
 ---
 
 # Creating Active Directory Domain Services
