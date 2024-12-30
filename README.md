@@ -86,18 +86,13 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
      ![Screenshot 2024-12-30 132656](https://github.com/user-attachments/assets/f9d96384-69ab-4fc2-8c42-b7196732c051)
 
-
-<!--## Setting up VirtualBox with Windows Server 2016
-
-<details>
-<summary>VirtualBox Server 2016 Intial Setup</summary>
-  
----  
-
-This section outlines the configuration of VirtualBox to host a Windows Server 2016 virtual machine, which serves as the domain controller. The server is configured with role-based features, including Active Directory Domain Services (AD DS), to simulate a fully functional domain environment. This setup provides a foundation for demonstrating user account management, group policy implementation, and other key administrative tasks.
-
-
-
 ---
 
-</details> -->
+# Creating Active Directory Domain Services
+
+<details>
+<summary> </summary>
+
+
+
+</details>
