@@ -22,18 +22,18 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
      
      ![Screenshot 2024-12-30 095417](https://github.com/user-attachments/assets/7116c63c-d6a3-4a0d-a759-9df440eea598)
 
-   - I named the virtual machine `Server 2019` and selected the Windows Server 2019 ISO image, then clicked `Next`.
+   - I named the virtual machine `Server 2019` and selected the Windows Server 2019 ISO image, then click `Next`.
     
      ![Screenshot 2024-12-30 095613](https://github.com/user-attachments/assets/7a8b04a4-6bd0-46f5-98c1-3d043a868d77)
 
 4. **Unattended Guest OS Install Setup:**
    - I entered a username and password
-   - Then set the Hostname to `GOODCORP` and the Domain Name to `goodcorp.com` then clicked `Next`.
+   - Then set the Hostname to `GOODCORP` and the Domain Name to `goodcorp.com` then click `Next`.
 
    ![Screenshot 2024-12-30 101237](https://github.com/user-attachments/assets/ea3b3df5-d84e-4ac9-8416-0d0fee97a8e9)
 
 5. **Configure Virtual Machine Hardware Settings:**  
-   - I adjusted the processor to 4 CPU cores and set the base memory to 4 GIGs, then click `Next`
+   - I adjusted the processor to have 4 CPU cores and set the base memory to 4 GB, then click `Next`
 
      ![Screenshot 2024-12-30 102327](https://github.com/user-attachments/assets/061c035b-8fd4-4f57-9bf2-ee66c5dde676)
 
