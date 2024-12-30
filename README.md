@@ -47,16 +47,17 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
      ![Screenshot 2024-12-30 103317](https://github.com/user-attachments/assets/947730a2-d6cb-45da-8d7f-3970f32a3ad2)
 
-6. **Install Windows Server 2019:**  
-   - Once the virtual machine was set up, it started and automatically installed Server 2019.
+7. **Install Windows Server 2019:**  
+   - Once the virtual machine was set up, it automatically started and installed Server 2019.
 
      ![Screenshot 2024-12-30 103410](https://github.com/user-attachments/assets/42b09384-e1f8-4815-a280-d2bf32a2b8a1)
 
-   - If you are following along and your virtual machine does not start automatically, just select your VM and click `Start`
+   - If you are following along and your virtual machine does not start automatically, select your VM and click `Start`
   
      ![Screenshot 2024-12-30 104134](https://github.com/user-attachments/assets/7edc6fc4-1556-4406-96ee-de5e4400a55a)
 
    - Now my Virtual Machine is set up and operating properly.
+
      ![Screenshot 2024-12-30 111039](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
 
 </details>
