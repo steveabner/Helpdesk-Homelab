@@ -65,7 +65,7 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 <details>
 <summary>VirtualBox - Troubleshooting Laggy Mouse and Scaling Issues</summary>
 
-   - Now that the virtual machine is configured and operating properly, I noticed the mouse was laggy and the display scaling was a bit off.
+   - With the virtual machine configured and running, I noticed some lag with the mouse and slight issues with display scaling.
 
      ![Screenshot 2024-12-30 111039](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
 
