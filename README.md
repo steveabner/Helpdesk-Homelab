@@ -10,7 +10,7 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
 ### Steps to Configure VirtualBox and Install Server 2016
 
 1. **Download and Install VirtualBox:**  
-   - Visit the [VirtualBox website]([https://www.virtualbox.org/](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html)) and download the latest version for your operating system.  
+   - Visit the [VirtualBox website]([https://www.virtualbox.org/](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html) and download the latest version for your operating system.  
    - Follow the installation wizard to complete the setup.
   
 2. **Create a New Virtual Machine:**  
