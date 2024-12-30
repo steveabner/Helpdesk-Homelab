@@ -91,13 +91,23 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 
 ---
 
-## 🌐 Install Active Directory Domain Services
+## 🌐 Active Directory Domain Services
 
 Active Directory Domain Services (AD DS) is a critical role for managing user identities, groups, and resources in a centralized domain. To install AD DS on Windows Server 2019, I used the Server Manager to add the role, configured it as the primary domain controller, and set up the domain goodcorp.com. This step establishes the foundation for centralized management and security in the lab environment.
 
 <details>
 <summary>🌐 Steps for installing AD DS</summary>
 
+### Open Server Manager & Install AD DS
+- Within the VM, click `start` and select `Server Manager`
+
+![Screenshot 2024-12-30 145633](https://github.com/user-attachments/assets/005a6021-e8c8-4499-b1e1-d8244188a8a6)
+
+- On the server manager dashboard, click `Manage` and select `Add Roles and Features`.
+
+![Screenshot 2024-12-30 150222](https://github.com/user-attachments/assets/9be5e3e2-1c64-4147-838f-749d3fef7465)
+
+- 
 
 
 </details>
