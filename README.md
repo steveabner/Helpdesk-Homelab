@@ -16,7 +16,7 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 ### 2️⃣ Download the Windows Server 2019 ISO
 - To download the Server 2019 ISO, I went to the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) and searched for "Windows Server 2019."
 
-### 2️⃣ Create a New Virtual Machine
+### 3️⃣ Create a New Virtual Machine
 - Open VirtualBox and click `New`.
   
   ![New VM Screenshot](https://github.com/user-attachments/assets/7116c63c-d6a3-4a0d-a759-9df440eea598)
@@ -72,7 +72,7 @@ With the virtual machine running, there were noticeable issues with mouse lag an
    
 2️⃣ Open `File Explorer` within the VM and navigate to `This PC`.  
 
-2️⃣ Under `Devices and Drives`, open the `CD Drive (D:) VirtualBox Guest Additions`.  
+3️⃣ Under `Devices and Drives`, open the `CD Drive (D:) VirtualBox Guest Additions`.  
    
    ![Guest Additions Drive Screenshot](https://github.com/user-attachments/assets/c9a9d62d-d1fd-4068-bcc2-89b45c5ddf77)
 
