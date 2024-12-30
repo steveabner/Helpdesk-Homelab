@@ -20,9 +20,13 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
 3. **Create a New Virtual Machine:**  
    - Open VirtualBox and click `New`.
      
-  ![Screenshot 2024-12-30 095417](https://github.com/user-attachments/assets/7116c63c-d6a3-4a0d-a759-9df440eea598)
+     ![Screenshot 2024-12-30 095417](https://github.com/user-attachments/assets/7116c63c-d6a3-4a0d-a759-9df440eea598)
 
-   - I set the name to `Server 2019`, and selected the `Windows Server 2019` ISO image I just downloaded.
+   - I set the name to `Server 2019`, and selected the `Windows Server 2019` ISO image I just downloaded then click `Next`
+    
+     ![Screenshot 2024-12-30 095613](https://github.com/user-attachments/assets/7a8b04a4-6bd0-46f5-98c1-3d043a868d77)
+
+   - 
 
 <!--## Setting up VirtualBox with Windows Server 2016
 
