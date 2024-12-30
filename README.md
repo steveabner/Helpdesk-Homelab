@@ -35,22 +35,28 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
 ### 5️⃣ Configure Virtual Machine Hardware Settings
 - Next, I allocated `4 CPU cores` and `4GB of RAM`.  
-  ![Hardware Configuration Screenshot](https://github.com/user-attachments/assets/061c035b-8fd4-4f57-9bf2-ee66c5dde676)
+
+   ![Hardware Configuration Screenshot](https://github.com/user-attachments/assets/061c035b-8fd4-4f57-9bf2-ee66c5dde676)
   
 - Next, I set the virtual hard disk size to `50GB`.  
+
   ![Hard Disk Size Screenshot](https://github.com/user-attachments/assets/0b1a7605-65f7-4893-bb85-e39973ebf9c4)
   
 - Click `Finish` to complete the setup.  
+
   ![Finish Setup Screenshot](https://github.com/user-attachments/assets/947730a2-d6cb-45da-8d7f-3970f32a3ad2)
 
 ### 6️⃣ Install Windows Server 2019
 - The virtual machine should start and install automatically. 
+
   ![Installation Screenshot](https://github.com/user-attachments/assets/42b09384-e1f8-4815-a280-d2bf32a2b8a1)
   
 - If you are following along and the VM does not start automatically, select it and click `Start`.  
+
   ![Start VM Screenshot](https://github.com/user-attachments/assets/7edc6fc4-1556-4406-96ee-de5e4400a55a)
 
 - Once installed, the VM will be ready and operational!  
+
   ![Completed Setup Screenshot](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
 
 </details>
