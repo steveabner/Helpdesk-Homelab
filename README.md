@@ -59,6 +59,8 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
    - Now my Virtual Machine is set up and operating properly.
      ![Screenshot 2024-12-30 111039](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
 
+</details>
+
 <details>
 <summary>Troubleshooting laggy mouse and scaling issue</summary>
 
