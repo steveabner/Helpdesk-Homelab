@@ -50,16 +50,20 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
  7. **VirtualBox User Experience Tweaks**
    - Now that the virtual machine is configured and operating properly, I noticed the mouse was laggy and the display scaling was a bit off.
+
      ![Screenshot 2024-12-30 111039](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
 
    - To fix this, I clicked `Devices` and selected `Insert Guest Additions CD images...`
+
      ![Screenshot 2024-12-30 111509](https://github.com/user-attachments/assets/7b1684a1-5a8a-4f5a-91d1-82541c3ba5c1)
 
    - Then I opened `File Explorer` and opened `This PC`
    - Under `Devices and Drives` I opened `CD Drive (D:) VirtualBox Guest Additions`
+
      ![Screenshot 2024-12-30 112400](https://github.com/user-attachments/assets/c9a9d62d-d1fd-4068-bcc2-89b45c5ddf77)
    
    - Within this drive, I opened and installed `VBoxWindowsAdditions-amd64`
+
      ![Screenshot 2024-12-30 112416](https://github.com/user-attachments/assets/18c984f6-9eb0-4a0c-b46d-3f75ad092226)
 
    - Then I rebooted the virtual machine.
