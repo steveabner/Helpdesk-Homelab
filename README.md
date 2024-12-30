@@ -72,7 +72,7 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
      ![Screenshot 2024-12-30 111509](https://github.com/user-attachments/assets/7b1684a1-5a8a-4f5a-91d1-82541c3ba5c1)
 
-   - Then I opened `File Explorer` and opened `This PC`
+   - Within the VM, I opened `File Explorer` and opened `This PC`
    - Under `Devices and Drives` I opened `CD Drive (D:) VirtualBox Guest Additions`
 
      ![Screenshot 2024-12-30 112400](https://github.com/user-attachments/assets/c9a9d62d-d1fd-4068-bcc2-89b45c5ddf77)
