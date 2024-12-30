@@ -1,27 +1,25 @@
 # Virtualbox Server 2019 Helpdesk
 
 # Introduction
-Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk environment using VirtualBox, Windows Server 2016, and Active Directory. The setup showcases core administrative skills, including user account management, group policy configuration, and basic troubleshooting techniques, designed to replicate real-world scenarios.
+Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk environment using VirtualBox, Windows Server 2019, and Active Directory. The setup showcases core administrative skills, including user account management, group policy configuration, and basic troubleshooting techniques, designed to replicate real-world scenarios.
 
 ---
 
-# Set Up VirtualBox and Windows Server 2019
+# Inital Set Up
 
 <details>
-<summary>Steps to Configure VirtualBox and Install Server 2016</summary>
+<summary>Steps to Configure VirtualBox and Install Server 2019</summary>
 
 1. **Download and Install VirtualBox:**  
    - Visit the [VirtualBox website](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html) and download the latest version for your operating system.  
    - Follow the installation wizard to complete the setup.
 
-2. **Download Windows Server 2016 ISO:**  
-   - Go to the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) and search for "Windows Server 2016."  
-   - Sign in or create a Microsoft account, then download the ISO for the evaluation version.  
-   - Save the ISO file to a known location on your computer.
+2. **Download the Windows Server 2019 ISO:**  
+   - To download the Server 2019 ISO, I went to the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) and searched for "Windows Server 2019."  
      
 3. **Create a New Virtual Machine:**  
    - Open VirtualBox and click `New`.  
-   - Set the name as `Server 2016`, select `Windows Server 2016` as the version, and allocate at least 4GB RAM.
+   - I set the name as `Server 2019`, selected `Windows Server 2019` as the version, and allocated 8GIGs of RAM.
 
 <!--## Setting up VirtualBox with Windows Server 2016
 
