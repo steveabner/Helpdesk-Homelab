@@ -1,11 +1,11 @@
-# Virtualbox Server 2016 Helpdesk
+# Virtualbox Server 2019 Helpdesk
 
 # Introduction
 Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk environment using VirtualBox, Windows Server 2016, and Active Directory. The setup showcases core administrative skills, including user account management, group policy configuration, and basic troubleshooting techniques, designed to replicate real-world scenarios.
 
 ---
 
-# Set Up VirtualBox and Windows Server 2016
+# Set Up VirtualBox and Windows Server 2019
 
 <details>
 <summary>Steps to Configure VirtualBox and Install Server 2016</summary>
@@ -13,10 +13,15 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
 1. **Download and Install VirtualBox:**  
    - Visit the [VirtualBox website](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html) and download the latest version for your operating system.  
    - Follow the installation wizard to complete the setup.
-  
-2. **Create a New Virtual Machine:**  
+
+2. **Download Windows Server 2016 ISO:**  
+   - Go to the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) and search for "Windows Server 2016."  
+   - Sign in or create a Microsoft account, then download the ISO for the evaluation version.  
+   - Save the ISO file to a known location on your computer.
+     
+3. **Create a New Virtual Machine:**  
    - Open VirtualBox and click `New`.  
-   - Set the name as `Server2016-DC`, select `Windows Server 2016` as the version, and allocate at least 4GB RAM.
+   - Set the name as `Server 2016`, select `Windows Server 2016` as the version, and allocate at least 4GB RAM.
 
 <!--## Setting up VirtualBox with Windows Server 2016
 
