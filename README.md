@@ -32,9 +32,11 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
 
    ![Screenshot 2024-12-30 101237](https://github.com/user-attachments/assets/ea3b3df5-d84e-4ac9-8416-0d0fee97a8e9)
 
-5. **Configure Virtual Machine Settings:**  
-   - I adjusted the processor to 4 CPUs in the `System` settings.  
-   - Attach the Windows Server 2019 ISO in the `Storage` section.
+5. **Configure Virtual Machine Hardware Settings:**  
+   - I adjusted the processor to 4 CPU cores and set the base memory to 4 GIGs, then click `Next`
+
+     ![Screenshot 2024-12-30 102327](https://github.com/user-attachments/assets/061c035b-8fd4-4f57-9bf2-ee66c5dde676)
+
 
 <!--## Setting up VirtualBox with Windows Server 2016
 
