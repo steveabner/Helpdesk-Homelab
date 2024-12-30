@@ -88,8 +88,6 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
 </details>
 
----
-
 # Creating Active Directory Domain Services
 
 <details>
