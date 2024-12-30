@@ -8,7 +8,7 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
 
 <details>
 <summary>VirtualBox Server 2016 Intial Setup</summary>
-  
+---  
 This section outlines the configuration of VirtualBox to host a Windows Server 2016 virtual machine, which serves as the domain controller. The server is configured with role-based features, including Active Directory Domain Services (AD DS), to simulate a fully functional domain environment. This setup provides a foundation for demonstrating user account management, group policy implementation, and other key administrative tasks.
 
 ---
