@@ -22,7 +22,7 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
      
      ![Screenshot 2024-12-30 095417](https://github.com/user-attachments/assets/7116c63c-d6a3-4a0d-a759-9df440eea598)
 
-   - I named the virtual machine `Server 2019`, selected the Windows Server 2019 ISO image that I had just downloaded, and clicked `Next`.
+   - I named the virtual machine `Server 2019` and selected the Windows Server 2019 ISO image, then clicked `Next`.
     
      ![Screenshot 2024-12-30 095613](https://github.com/user-attachments/assets/7a8b04a4-6bd0-46f5-98c1-3d043a868d77)
 
