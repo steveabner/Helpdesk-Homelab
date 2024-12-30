@@ -1,4 +1,4 @@
-# Virtualbox Server 2019 Helpdesk
+# Helpdesk Homelab
 
 # Introduction
 This project demonstrates a simulated IT helpdesk environment using VirtualBox, Windows Server 2019, and Active Directory. The setup showcases core administrative skills, including user account management, group policy configuration, and basic troubleshooting techniques, designed to replicate real-world scenarios.
