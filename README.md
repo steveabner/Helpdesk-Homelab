@@ -22,7 +22,7 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
      
      ![Screenshot 2024-12-30 095417](https://github.com/user-attachments/assets/7116c63c-d6a3-4a0d-a759-9df440eea598)
 
-   - I named my virtual Machine `Server 2019`
+   - I named my Virtual Machine `Server 2019`
    - I selected the Windows Server 2019 ISO image that I downloaded earlier.
    - I chose `Desktop Experience` from the `Edition` dropdown menu to ensure the GUI interface was installed.
   
@@ -75,6 +75,7 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
      ![Screenshot 2024-12-30 112416](https://github.com/user-attachments/assets/18c984f6-9eb0-4a0c-b46d-3f75ad092226)
 
    - Then I rebooted the virtual machine.
+   - Now my mouse isn't laggy and I can resize the virtual machine window to my liking. 😊
 
 
 <!--## Setting up VirtualBox with Windows Server 2016
