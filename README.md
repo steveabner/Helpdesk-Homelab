@@ -39,6 +39,12 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
      ![Screenshot 2024-12-30 102327](https://github.com/user-attachments/assets/061c035b-8fd4-4f57-9bf2-ee66c5dde676)
 
+   - I set the virtual hard disk size to 50.00GB, then clicked next
+     ![Screenshot 2024-12-30 103255](https://github.com/user-attachments/assets/0b1a7605-65f7-4893-bb85-e39973ebf9c4)
+
+   - Then click Finish
+     ![Screenshot 2024-12-30 103317](https://github.com/user-attachments/assets/947730a2-d6cb-45da-8d7f-3970f32a3ad2)
+
 6. **Install Windows Server 2019:**  
    - After setting up the virtual machine, it started and installed Server 2019 automatically.
 
