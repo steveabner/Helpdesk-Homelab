@@ -81,7 +81,7 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
      ![Screenshot 2024-12-30 112416](https://github.com/user-attachments/assets/18c984f6-9eb0-4a0c-b46d-3f75ad092226)
   
-   - Now my mouse isn't laggy and I can resize the virtual machine window to my liking. 😊
+   - Now my mouse moves smoothly, and I can resize the virtual machine window to suit my preferences. 😊
 
      ![Screenshot 2024-12-30 132656](https://github.com/user-attachments/assets/f9d96384-69ab-4fc2-8c42-b7196732c051)
 
