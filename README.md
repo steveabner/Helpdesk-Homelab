@@ -18,8 +18,9 @@ Helpdesk Simulation Project: This project demonstrates a simulated IT helpdesk e
    - To download the Server 2019 ISO, I went to the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) and searched for "Windows Server 2019."  
      
 3. **Create a New Virtual Machine:**  
-   - Open VirtualBox and click `New`.  
-   - I set the name as `Server 2019`, selected `Windows Server 2019` as the version, and allocated 8GIGs of RAM.
+   - Open VirtualBox and click `New`.
+  
+   - I set the name to `Server 2019`, selected `Windows Server 2019` as the ISO image I just downloaded.
 
 <!--## Setting up VirtualBox with Windows Server 2016
 
