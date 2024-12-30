@@ -5,7 +5,7 @@ This project demonstrates a simulated IT helpdesk environment using VirtualBox, 
 
 ---
 
-# Inital Set Up
+# VirtualBox & Server 2019 Initial Set Up
 
 <details>
 <summary>Steps to Configure VirtualBox and Install Server 2019</summary>
