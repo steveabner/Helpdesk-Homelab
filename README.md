@@ -66,10 +66,10 @@ With the virtual machine running, there were noticeable issues with mouse lag an
   ![Mouse Lag Screenshot](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
 
 ### Solution
-1. Go to `Devices` in the VirtualBox menu and select `Insert Guest Additions CD image...`.  
+1️⃣ Go to `Devices` in the VirtualBox menu and select `Insert Guest Additions CD image...`.  
    ![Insert Guest Additions Screenshot](https://github.com/user-attachments/assets/7b1684a1-5a8a-4f5a-91d1-82541c3ba5c1)
    
-2. Open `File Explorer` within the VM and navigate to `This PC`.  
+2️⃣ Open `File Explorer` within the VM and navigate to `This PC`.  
 3. Under `Devices and Drives`, open the `CD Drive (D:) VirtualBox Guest Additions`.  
    ![Guest Additions Drive Screenshot](https://github.com/user-attachments/assets/c9a9d62d-d1fd-4068-bcc2-89b45c5ddf77)
 
