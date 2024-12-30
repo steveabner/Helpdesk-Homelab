@@ -16,7 +16,7 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 ### 2️⃣ Download the Windows Server 2019 ISO
 - To download the Server 2019 ISO, I went to the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) and searched for "Windows Server 2019."
 
-### 3️⃣ Create a New Virtual Machine
+### 2️⃣ Create a New Virtual Machine
 - Open VirtualBox and click `New`.
   
   ![New VM Screenshot](https://github.com/user-attachments/assets/7116c63c-d6a3-4a0d-a759-9df440eea598)
@@ -67,19 +67,24 @@ With the virtual machine running, there were noticeable issues with mouse lag an
 
 ### Solution
 1️⃣ Go to `Devices` in the VirtualBox menu and select `Insert Guest Additions CD image...`.  
+   
    ![Insert Guest Additions Screenshot](https://github.com/user-attachments/assets/7b1684a1-5a8a-4f5a-91d1-82541c3ba5c1)
    
 2️⃣ Open `File Explorer` within the VM and navigate to `This PC`.  
-3. Under `Devices and Drives`, open the `CD Drive (D:) VirtualBox Guest Additions`.  
+
+2️⃣ Under `Devices and Drives`, open the `CD Drive (D:) VirtualBox Guest Additions`.  
+   
    ![Guest Additions Drive Screenshot](https://github.com/user-attachments/assets/c9a9d62d-d1fd-4068-bcc2-89b45c5ddf77)
 
-4. Run `VBoxWindowsAdditions-amd64` and complete the installation.  
+4️⃣ Run `VBoxWindowsAdditions-amd64` and complete the installation.  
+   
    ![Guest Additions Installer Screenshot](https://github.com/user-attachments/assets/18c984f6-9eb0-4a0c-b46d-3f75ad092226)
 
-5. Reboot the VM.  
+5️⃣ Reboot the VM.  
 
 ### Result
 The mouse now moves smoothly, and the display scaling adjusts correctly, allowing for a better user experience. 😊  
+  
   ![Fixed Issues Screenshot](https://github.com/user-attachments/assets/f9d96384-69ab-4fc2-8c42-b7196732c051)
 
 </details>
