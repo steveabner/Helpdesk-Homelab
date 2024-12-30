@@ -55,8 +55,6 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
 </details>
 
----
-
 ## 🛠️ Troubleshooting: Laggy Mouse and Display Scaling Issues
 
 <details>
