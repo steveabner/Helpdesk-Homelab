@@ -23,7 +23,6 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
 - I named the virtual machine `Server 2019`.  
 - Select the downloaded Windows Server 2019 ISO image.  
-- Choose `Desktop Experience` from the `Edition` dropdown menu to ensure the GUI interface is installed.
 - I checked `Skip Unattended Installation`, then I clicked `Next`
   
   ![Screenshot 2024-12-30 220652](https://github.com/user-attachments/assets/83a81a79-8a1f-4da3-b21a-3ae4fcd8a7fe)
@@ -42,11 +41,8 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
   ![Finish Setup Screenshot](https://github.com/user-attachments/assets/947730a2-d6cb-45da-8d7f-3970f32a3ad2)
 
 ### 5️⃣ Install Windows Server 2019
-- The virtual machine should start and install automatically. 
-
-  ![Installation Screenshot](https://github.com/user-attachments/assets/42b09384-e1f8-4815-a280-d2bf32a2b8a1)
   
-- If you are following along and the VM does not start automatically, select it and click `Start`.  
+- Open VirtualBox, select the Server 2019 VM, and click `Start`.  
 
   ![Start VM Screenshot](https://github.com/user-attachments/assets/7edc6fc4-1556-4406-96ee-de5e4400a55a)
 
