@@ -190,7 +190,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 ## 🛠️ Prepare the Server
 
-## Change the Computer Name  
+### Change the Computer Name  
 - Go to System Properties, by opening `File Explorer` right-click `This PC`, then select `Properties`.
 
   ![Screenshot 2024-12-30 233825](https://github.com/user-attachments/assets/c35254c2-8989-48e3-8e4d-c041222bf78a)
