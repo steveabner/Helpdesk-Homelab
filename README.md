@@ -138,9 +138,43 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
   ![Screenshot 2024-12-30 202638](https://github.com/user-attachments/assets/a5019e91-2ae0-4e72-9977-2451d926c20b)
 
-- And finally, on the Confirmation tab, I'll click `Install`
+- And finally, on the Confirmation tab, I'll click `Install`.
+- When the installation was complete, I clicked `Promote this server to a domain controller`
 
   ![Screenshot 2024-12-30 202649](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
 
+  ![Screenshot 2024-12-30 202706](https://github.com/user-attachments/assets/ff2ca772-072e-491b-bc91-d90ab1f960cc)
+  
+- On the Deployment Configuration tab, I clicked `Add a new forest` and named it `goodcorp.com`
+
+  ![Screenshot 2024-12-30 203050](https://github.com/user-attachments/assets/37d8898a-2e16-4140-96f2-cab44caf2007)
+
+- On the Domain Controller Options tab, I input a password, then clicked `Next`
+
+  ![Screenshot 2024-12-30 203154](https://github.com/user-attachments/assets/fe8cc402-6b68-4f18-bf8f-d44549f21b7d)
+
+- On the DNS options tab, I left it unchecked, then clicked `Next`
+
+  ![Screenshot 2024-12-30 203241](https://github.com/user-attachments/assets/8ad70ae0-355c-4053-a979-dbed3285a9f4)
+
+- On the Additional Options tab, I left the NetBIOS domain name as is, then clicked `Next`
+
+  ![Screenshot 2024-12-30 203543](https://github.com/user-attachments/assets/e9b7b17f-c5ba-4379-a8fc-d20ce6578d4d)
+
+- On the Paths tab, I left everything as is, then clicked `Next`
+
+  ![Screenshot 2024-12-30 203604](https://github.com/user-attachments/assets/3b4c5adb-c728-4cf3-b68d-8110341e2bf5)
+
+- On the Review tab, I clicked `Next`
+
+  ![Screenshot 2024-12-30 203609](https://github.com/user-attachments/assets/e0e265e5-aa25-4e6d-bdb6-02794982ebb3)
+
+- And finally, on the Prerequisites Check tab, I clicked `Install`
+
+  ![Screenshot 2024-12-30 203626](https://github.com/user-attachments/assets/abfb3074-a958-4c4c-9385-5edd5b859208)
+
+- Once the installation completes, the VM will automatically restart.
+
+  ![Screenshot 2024-12-30 203712](https://github.com/user-attachments/assets/7eeefc23-2ad1-47ff-a921-f47941e80350)
 
 </details>
