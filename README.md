@@ -159,7 +159,7 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 9️⃣ Start Promotion  
 - After installation, click `Promote this server to a domain controller`.  
 
-- Add a New Forest: Enter the name `goodcorp.com`.  
+- Add a New Forest: I chose to use `goodcorp.com`.  
   ![Add Forest](https://github.com/user-attachments/assets/37d8898a-2e16-4140-96f2-cab44caf2007)
 
 🔟 Set Domain Controller Options  
