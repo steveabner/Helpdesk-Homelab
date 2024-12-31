@@ -97,101 +97,100 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 
 ---
 
-## 🌐 Active Directory Domain Services
-
-Active Directory Domain Services (AD DS) is a critical role for managing user identities, groups, and resources in a centralized domain. To install AD DS on Windows Server 2019, I used the Server Manager to add the role, configured it as the primary domain controller, and set up the domain goodcorp.com. This step establishes the foundation for centralized management and security in the lab environment.
-
 <details>
-<summary>🌐 Steps for Installing Active Directory Domain Services (AD DS)</summary>
+<summary>🌐 **Step-by-Step Guide: Installing Active Directory Domain Services (AD DS)**</summary>
 
 ---
 
-### **1. Open Server Manager & Install AD DS**
+## 🛠️ **1. Open Server Manager & Start Installation**
 
-- **Step 1:** Open the VM, click `Start`, and select `Server Manager`.
+1️⃣ **Launch Server Manager**  
+- Open the VM, click `Start`, and select `Server Manager`.  
 
   ![Server Manager](https://github.com/user-attachments/assets/38ee87c4-8674-400e-bbfe-615c5cc283c3)
 
-- **Step 2:** On the Server Manager dashboard, click `Manage` and select `Add Roles and Features`.
+2️⃣ **Add Roles and Features**  
+- On the Server Manager dashboard, click `Manage` → `Add Roles and Features`.  
 
   ![Add Roles and Features](https://github.com/user-attachments/assets/9be5e3e2-1c64-4147-838f-749d3fef7465)
 
 ---
 
-### **2. Complete Installation Wizard**
+## 🖱️ **2. Use the Installation Wizard**
 
-- **Step 3:** When the installation wizard appears, click `Next`.
+3️⃣ **Begin Installation**  
+- When the installation wizard appears, click `Next`.  
 
   ![Installation Wizard](https://github.com/user-attachments/assets/e6f552f3-af02-446c-8879-afba8f498b86)
 
-- **Step 4:** Select `Role-based or Feature-based Installation` and click `Next`.
+4️⃣ **Select Installation Type**  
+- Choose `Role-based or Feature-based Installation`, then click `Next`.  
 
   ![Installation Type](https://github.com/user-attachments/assets/73e08efb-b176-4a52-8d19-78769956c37f)
 
-- **Step 5:** Choose `Select a server from the server pool` and click `Next`.
+5️⃣ **Pick the Destination Server**  
+- Select `A server from the server pool` and click `Next`.  
 
   ![Destination Server](https://github.com/user-attachments/assets/7a214833-6591-4b29-a9fd-68eea3139cda)
 
 ---
 
-### **3. Select and Configure AD DS Role**
+## 🧩 **3. Add the AD DS Role**
 
-- **Step 6:** Select `Active Directory Domain Services`, click `Add Features`, and then click `Next`.
+6️⃣ **Add the Role**  
+- Select `Active Directory Domain Services`, click `Add Features`, then click `Next`.  
 
-  ![Add AD DS Role](https://github.com/user-attachments/assets/aacaaec9-f312-43c4-8bf3-b265e8ff67de)
+  ![AD DS Role](https://github.com/user-attachments/assets/aacaaec9-f312-43c4-8bf3-b265e8ff67de)
+
+7️⃣ **Review Features**  
+- On the Features tab, leave everything as is, then click `Next`.  
+
   ![Features Tab](https://github.com/user-attachments/assets/ad15bf3e-25a3-4ebd-97f5-bf094347d04d)
 
-- **Step 7:** Leave the Features tab as is and click `Next`.
-
-  ![Features](https://github.com/user-attachments/assets/a5019e91-2ae0-4e72-9977-2451d926c20b)
-
-- **Step 8:** On the Confirmation tab, click `Install`.
+8️⃣ **Confirm Installation**  
+- On the AD DS tab, click `Next`, then `Install` on the Confirmation tab.  
 
   ![Confirmation Tab](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
 
 ---
 
-### **4. Promote Server to Domain Controller**
+## 🌳 **4. Promote to Domain Controller**
 
-- **Step 9:** After installation, click `Promote this server to a domain controller`.
+9️⃣ **Start Promotion**  
+- After installation, click `Promote this server to a domain controller`.  
 
-  - On the Deployment Configuration tab, select `Add a new forest` and name it `goodcorp.com`.
+- **Add a New Forest:** Enter the name `goodcorp.com`.  
+  ![Add Forest](https://github.com/user-attachments/assets/37d8898a-2e16-4140-96f2-cab44caf2007)
 
-    ![Add Forest](https://github.com/user-attachments/assets/37d8898a-2e16-4140-96f2-cab44caf2007)
-
-  - On the Domain Controller Options tab, input a password and click `Next`.
-
-    ![Domain Controller Options](https://github.com/user-attachments/assets/fe8cc402-6b68-4f18-bf8f-d44549f21b7d)
+🔟 **Set Domain Controller Options**  
+- Input a password and click `Next`.  
+  ![Domain Controller Options](https://github.com/user-attachments/assets/fe8cc402-6b68-4f18-bf8f-d44549f21b7d)
 
 ---
 
-### **5. Final Configuration Steps**
+## 🔗 **5. Configure Additional Settings**
 
-- **Step 10:** On the DNS Options tab, leave it unchecked and click `Next`.
-
+- **DNS Options:** Leave unchecked and click `Next`.  
   ![DNS Options](https://github.com/user-attachments/assets/8ad70ae0-355c-4053-a979-dbed3285a9f4)
 
-- **Step 11:** Leave the NetBIOS domain name as is and click `Next`.
+- **NetBIOS Name:** Leave as is and click `Next`.  
+  ![NetBIOS Name](https://github.com/user-attachments/assets/e9b7b17f-c5ba-4379-a8fc-d20ce6578d4d)
 
-  ![NetBIOS Domain Name](https://github.com/user-attachments/assets/e9b7b17f-c5ba-4379-a8fc-d20ce6578d4d)
-
-- **Step 12:** On the Paths tab, leave the default paths and click `Next`.
-
+- **Paths Tab:** Keep defaults and click `Next`.  
   ![Paths Tab](https://github.com/user-attachments/assets/3b4c5adb-c728-4cf3-b68d-8110341e2bf5)
 
-- **Step 13:** On the Review tab, click `Next`.
-
+- **Review Tab:** Click `Next`.  
   ![Review Tab](https://github.com/user-attachments/assets/e0e265e5-aa25-4e6d-bdb6-02794982ebb3)
 
-- **Step 14:** On the Prerequisites Check tab, click `Install`.
-
+- **Prerequisites Check:** Click `Install`.  
   ![Prerequisites Check](https://github.com/user-attachments/assets/abfb3074-a958-4c4c-9385-5edd5b859208)
 
 ---
 
-### **6. Completion**
+## 🔄 **6. Final Steps**
 
-- Once the installation completes, the VM will automatically restart.
+✅ **Installation Complete**  
+- Once the installation completes, the VM will automatically restart.  
 
   ![Restart](https://github.com/user-attachments/assets/7eeefc23-2ad1-47ff-a921-f47941e80350)
 
