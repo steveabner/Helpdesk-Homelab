@@ -98,98 +98,98 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 ---
 
 <details>
-<summary>🌐 **Step-by-Step Guide: Installing Active Directory Domain Services (AD DS)**</summary>
+<summary>🌐 Step-by-Step Guide: Installing Active Directory Domain Services (AD DS)</summary>
 
 ---
 
-## 🛠️ **1. Open Server Manager & Start Installation**
+## 🛠️ 1. Open Server Manager & Start Installation
 
-1️⃣ **Launch Server Manager**  
+1️⃣ Launch Server Manager  
 - Open the VM, click `Start`, and select `Server Manager`.  
 
   ![Server Manager](https://github.com/user-attachments/assets/38ee87c4-8674-400e-bbfe-615c5cc283c3)
 
-2️⃣ **Add Roles and Features**  
+2️⃣ Add Roles and Features  
 - On the Server Manager dashboard, click `Manage` → `Add Roles and Features`.  
 
   ![Add Roles and Features](https://github.com/user-attachments/assets/9be5e3e2-1c64-4147-838f-749d3fef7465)
 
 ---
 
-## 🖱️ **2. Use the Installation Wizard**
+## 🖱️ 2. Use the Installation Wizard
 
-3️⃣ **Begin Installation**  
+3️⃣ Begin Installation  
 - When the installation wizard appears, click `Next`.  
 
   ![Installation Wizard](https://github.com/user-attachments/assets/e6f552f3-af02-446c-8879-afba8f498b86)
 
-4️⃣ **Select Installation Type**  
+4️⃣ Select Installation Type  
 - Choose `Role-based or Feature-based Installation`, then click `Next`.  
 
   ![Installation Type](https://github.com/user-attachments/assets/73e08efb-b176-4a52-8d19-78769956c37f)
 
-5️⃣ **Pick the Destination Server**  
+5️⃣ Pick the Destination Server  
 - Select `A server from the server pool` and click `Next`.  
 
   ![Destination Server](https://github.com/user-attachments/assets/7a214833-6591-4b29-a9fd-68eea3139cda)
 
 ---
 
-## 🧩 **3. Add the AD DS Role**
+## 🧩 3. Add the AD DS Role
 
-6️⃣ **Add the Role**  
+6️⃣ Add the Role  
 - Select `Active Directory Domain Services`, click `Add Features`, then click `Next`.  
 
   ![AD DS Role](https://github.com/user-attachments/assets/aacaaec9-f312-43c4-8bf3-b265e8ff67de)
 
-7️⃣ **Review Features**  
+7️⃣ Review Features  
 - On the Features tab, leave everything as is, then click `Next`.  
 
   ![Features Tab](https://github.com/user-attachments/assets/ad15bf3e-25a3-4ebd-97f5-bf094347d04d)
 
-8️⃣ **Confirm Installation**  
+8️⃣ Confirm Installation  
 - On the AD DS tab, click `Next`, then `Install` on the Confirmation tab.  
 
   ![Confirmation Tab](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
 
 ---
 
-## 🌳 **4. Promote to Domain Controller**
+## 🌳 4. Promote to Domain Controller
 
-9️⃣ **Start Promotion**  
+9️⃣ Start Promotion  
 - After installation, click `Promote this server to a domain controller`.  
 
-- **Add a New Forest:** Enter the name `goodcorp.com`.  
+- Add a New Forest: Enter the name `goodcorp.com`.  
   ![Add Forest](https://github.com/user-attachments/assets/37d8898a-2e16-4140-96f2-cab44caf2007)
 
-🔟 **Set Domain Controller Options**  
+🔟 Set Domain Controller Options  
 - Input a password and click `Next`.  
   ![Domain Controller Options](https://github.com/user-attachments/assets/fe8cc402-6b68-4f18-bf8f-d44549f21b7d)
 
 ---
 
-## 🔗 **5. Configure Additional Settings**
+## 🔗 5. Configure Additional Settings
 
-- **DNS Options:** Leave unchecked and click `Next`.  
+- DNS Options: Leave unchecked and click `Next`.  
   ![DNS Options](https://github.com/user-attachments/assets/8ad70ae0-355c-4053-a979-dbed3285a9f4)
 
-- **NetBIOS Name:** Leave as is and click `Next`.  
+- NetBIOS Name: Leave as is and click `Next`.  
   ![NetBIOS Name](https://github.com/user-attachments/assets/e9b7b17f-c5ba-4379-a8fc-d20ce6578d4d)
 
-- **Paths Tab:** Keep defaults and click `Next`.  
+- Paths Tab: Keep defaults and click `Next`.  
   ![Paths Tab](https://github.com/user-attachments/assets/3b4c5adb-c728-4cf3-b68d-8110341e2bf5)
 
-- **Review Tab:** Click `Next`.  
+- Review Tab: Click `Next`.  
   ![Review Tab](https://github.com/user-attachments/assets/e0e265e5-aa25-4e6d-bdb6-02794982ebb3)
 
-- **Prerequisites Check:** Click `Install`.  
+- Prerequisites Check: Click `Install`.  
   ![Prerequisites Check](https://github.com/user-attachments/assets/abfb3074-a958-4c4c-9385-5edd5b859208)
 
 ---
 
-## 🔄 **6. Final Steps**
+## 🔄 6. Final Steps
 
-✅ **Installation Complete**  
+✅ Installation Complete  
 - Once the installation completes, the VM will automatically restart.  
 
   ![Restart](https://github.com/user-attachments/assets/7eeefc23-2ad1-47ff-a921-f47941e80350)
@@ -197,3 +197,4 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 ---
 
 </details>
+
