@@ -272,8 +272,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 </details>
 
 
-## 👥 Active Directory Users and Computers
+<!--## 👥 Active Directory Users and Computers
 
 <details>
-<summary>👥Adding Active Directory Users and Computers</summary>
-
+<summary>👥Adding Active Directory Users and Computers</summary> -->
