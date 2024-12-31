@@ -188,7 +188,28 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 ---
 
-## 🛠️ 1. Open Server Manager & Start Installation
+## 🛠️ Prepare the Server
+
+## Change the Computer Name  
+- Go to System Properties, by opening `File Explorer` right-click `This PC`, then select `Properties`.
+
+  ![Screenshot 2024-12-30 233825](https://github.com/user-attachments/assets/c35254c2-8989-48e3-8e4d-c041222bf78a)
+
+- Next to Computer Name click `Change Settings`
+
+  ![Screenshot 2024-12-30 234145](https://github.com/user-attachments/assets/1f375b22-e8cc-45ab-a64c-0766477394d5)
+
+- Click `Change` then set the computer name, I'll use `GoodCorp-DC`, click `OK` then restart the server.
+
+  ![Screenshot 2024-12-30 235134](https://github.com/user-attachments/assets/a5a1191f-5e26-49ee-a184-be7d5c9f7094)
+
+- Once restarted, go to system properties again to verify the name has changed.
+
+  ![Screenshot 2024-12-30 235519](https://github.com/user-attachments/assets/2a4f91fb-63a5-4e54-82a4-bc3c7196f6a1)
+
+---
+
+## 🛠️ Open Server Manager & Start Installation
 
 1️⃣ Launch Server Manager  
 - Open the VM, click `Start`, and select `Server Manager`.  
@@ -202,7 +223,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 ---
 
-## 🖱️ 2. Use the Installation Wizard
+## 🖱️ Use the Installation Wizard
 
 3️⃣ Begin Installation  
 - When the installation wizard appears, click `Next`.  
@@ -221,7 +242,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 ---
 
-## 🧩 3. Add the AD DS Role
+## 🧩 Add the AD DS Role
 
 6️⃣ Add the Role  
 - Select `Active Directory Domain Services`, click `Add Features`, then click `Next`.  
@@ -240,7 +261,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 ---
 
-## 🌳 4. Promote to Domain Controller
+## 🌳 Promote to Domain Controller
 
 9️⃣ Start Promotion  
 - After installation, click `Promote this server to a domain controller`.  
@@ -254,7 +275,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 ---
 
-## 🔗 5. Configure Additional Settings
+## 🔗 Configure Additional Settings
 
 - DNS Options: Leave unchecked and click `Next`.  
   ![DNS Options](https://github.com/user-attachments/assets/8ad70ae0-355c-4053-a979-dbed3285a9f4)
@@ -273,7 +294,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 ---
 
-## 🔄 6. Final Steps
+## 🔄 Final Steps
 
 ✅ Installation Complete  
 - Once the installation completes, the VM will automatically restart.  
