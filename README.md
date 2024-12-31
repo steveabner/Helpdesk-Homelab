@@ -6,6 +6,7 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
 ## 🖥️ Hardware Used
 For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controller, while my main PC and an older MSI gaming laptop will act as user devices. To preserve the original operating systems on all systems, I will utilize VirtualBox to create virtual machines on each device.
+
 ![1000001973](https://github.com/user-attachments/assets/f65b355a-97fa-4618-8f96-78643b99318b)
 ![1000001972](https://github.com/user-attachments/assets/6957e9d5-d26d-48c4-9ef7-ad7b1bc7d492)
 
