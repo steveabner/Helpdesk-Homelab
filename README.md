@@ -83,7 +83,11 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
   ![Screenshot 2024-12-30 224856](https://github.com/user-attachments/assets/9db6dc9f-c7cd-42dc-8826-ae1b05abcea8)
 
+- The VM is now ready and operational!  
 
+  ![Completed Setup Screenshot](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
+
+</details>
 
 
 
