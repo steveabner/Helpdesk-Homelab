@@ -286,7 +286,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
   ![Screenshot 2024-12-31 130031](https://github.com/user-attachments/assets/6b067f12-b5e0-463c-a109-22d47ff88de4)
 
-- I will pin AD UC to my taskbar by right-clicking the icon and selecting `Pin To Taskbar`
+- I will pin ADUC to my taskbar by right-clicking the icon and selecting `Pin To Taskbar`
 
   ![Screenshot 2024-12-31 130320](https://github.com/user-attachments/assets/d63ddf3c-5f44-4b69-80c9-ac53b42f100f)
 
@@ -294,7 +294,30 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 ## 👥 Create The Helpdesk Admin
 
-2️⃣
+2️⃣ Create A New Admin User
+- In the left pane of the ADUC window, I will expand `goodcorp.com` and select `Users`.
+
+  ![Screenshot 2024-12-31 133217](https://github.com/user-attachments/assets/3b05a51d-5795-4c76-ab0d-69e14870aa47)
+
+- Since we already have an admin account, I'll just right-click `Administrator` and click `Copy`. (Copying makes life easier)
+
+  ![Screenshot 2024-12-31 133617](https://github.com/user-attachments/assets/535df790-7557-43c4-ba2b-fc386e17a4f2)
+
+- A `Copy Object - User` window will appear, I'll set the First name to `Helpdesk` and the User logon name to `Helpdesk` then click `Next`
+
+  ![Screenshot 2024-12-31 134330](https://github.com/user-attachments/assets/4590eb2f-2c9c-46ca-b467-f6eb1441f760)
+
+- Input a password, and make sure `Password never expires` is checked, then click `Next`, and `Finish`
+
+  ![Screenshot 2024-12-31 134731](https://github.com/user-attachments/assets/374df034-fff4-4ced-adb0-76ac60d982cc)
+
+- I now have an administrative user named Helpdesk.
+
+  ![Screenshot 2024-12-31 134840](https://github.com/user-attachments/assets/3d25a144-6469-4d9a-af28-c0d01cd87508)
+
+
+
+
 
 
 </details>
