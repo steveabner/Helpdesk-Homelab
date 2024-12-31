@@ -138,8 +138,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
   ![Screenshot 2024-12-30 202638](https://github.com/user-attachments/assets/a5019e91-2ae0-4e72-9977-2451d926c20b)
 
-- And finally, on the Confirmation tab, I'll click `Install`.
-- When the installation was complete, I clicked `Promote this server to a domain controller`
+- And finally, on the Confirmation tab, I'll click `Install`, and when the installation was complete, I clicked `Promote this server to a domain controller`
 
   ![Screenshot 2024-12-30 202649](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
 
