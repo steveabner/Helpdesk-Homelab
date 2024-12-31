@@ -23,8 +23,9 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
 - To start I visited the [VirtualBox website](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html) and downloaded the latest version.  
 - Follow the installation wizard to complete the setup.
 
-### 2️⃣ Download the Windows Server 2019 ISO
+### 2️⃣ Download the Windows Server 2019 & Windows 10 ISO
 - To download the Server 2019 ISO, I went to the [Microsoft Evaluation Center](https://www.microsoft.com/en-us/evalcenter/) and searched for "Windows Server 2019."
+- To download the Windows 10 ISO I went to [Microsoft Software Download Page](https://www.microsoft.com/en-us/software-download/windows10)
 
 ### 3️⃣ Create a New Virtual Machine
 - Open VirtualBox and click `New`.
@@ -94,10 +95,18 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
   ![Screenshot 2024-12-30 224856](https://github.com/user-attachments/assets/9db6dc9f-c7cd-42dc-8826-ae1b05abcea8)
 
 ✅ Installation Complete
-- The VM is now ready and operational!  
+- The VM is now ready and operational! Just repeat the process to create a Windows 10 Virtual Machine.
 
   ![Completed Setup Screenshot](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
+
 </details>
+
+
+
+
+
+
+
 
 ## 🛠️ Troubleshooting: Laggy Mouse and Display Scaling Issues
 
@@ -132,6 +141,12 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
   ![Fixed Issues Screenshot](https://github.com/user-attachments/assets/f9d96384-69ab-4fc2-8c42-b7196732c051)
 
 </details>
+
+
+
+
+
+
 
 
 ## 🌐 Active Directory Domain Services (AD DS)
@@ -270,6 +285,12 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 ---
 
 </details>
+
+
+
+
+
+
 
 
 ## 👥 Active Directory Users and Computers
