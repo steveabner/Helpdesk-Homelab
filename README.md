@@ -263,7 +263,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 ## 🔄 Final Steps
 
 ✅ Installation Complete  
-- Once the installation completes, the VM will automatically restart.  
+- Once the installation is complete, the VM will automatically restart.  
 
   ![Screenshot 2024-12-31 001941](https://github.com/user-attachments/assets/865bf457-60eb-4ef9-aa66-86d8d6727a7c)
 
@@ -279,6 +279,22 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 <details>
 <summary>👥Creating a Helpdesk Admin Account</summary>
 
+## 👥 Access Active Directory Users and Computers
+
+1️⃣ Access Active Directory Users and Computers
+- On the Server Manager dashboard, click `Tools` and select `Active Directory Users and Computers`
+
+  ![Screenshot 2024-12-31 130031](https://github.com/user-attachments/assets/6b067f12-b5e0-463c-a109-22d47ff88de4)
+
+- I will pin AD UC to my taskbar by right-clicking the icon and selecting `Pin To Taskbar`
+
+  ![Screenshot 2024-12-31 130320](https://github.com/user-attachments/assets/d63ddf3c-5f44-4b69-80c9-ac53b42f100f)
+
 
 
 </details>
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
