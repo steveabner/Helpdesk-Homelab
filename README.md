@@ -24,16 +24,11 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 - I named the virtual machine `Server 2019`.  
 - Select the downloaded Windows Server 2019 ISO image.  
 - Choose `Desktop Experience` from the `Edition` dropdown menu to ensure the GUI interface is installed.
+- I checked `Skip Unattended Installation`, then I clicked `Next`
   
-  ![Edition Selection Screenshot](https://github.com/user-attachments/assets/7a8b04a4-6bd0-46f5-98c1-3d043a868d77)
+  ![Screenshot 2024-12-30 220652](https://github.com/user-attachments/assets/83a81a79-8a1f-4da3-b21a-3ae4fcd8a7fe)
 
-### 4️⃣ Unattended Guest OS Install Setup
-- I created a username and password.  
-- Then I set the hostname to `GOODCORP` and the domain name to `goodcorp.com`.  
-
-  ![Unattended Setup Screenshot](https://github.com/user-attachments/assets/ea3b3df5-d84e-4ac9-8416-0d0fee97a8e9)
-
-### 5️⃣ Configure Virtual Machine Hardware Settings
+### 4️⃣ Configure Virtual Machine Hardware Settings
 - Next, I allocated `4 CPU cores` and `4GB of RAM`.  
 
    ![Hardware Configuration Screenshot](https://github.com/user-attachments/assets/061c035b-8fd4-4f57-9bf2-ee66c5dde676)
@@ -46,7 +41,7 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
   ![Finish Setup Screenshot](https://github.com/user-attachments/assets/947730a2-d6cb-45da-8d7f-3970f32a3ad2)
 
-### 6️⃣ Install Windows Server 2019
+### 5️⃣ Install Windows Server 2019
 - The virtual machine should start and install automatically. 
 
   ![Installation Screenshot](https://github.com/user-attachments/assets/42b09384-e1f8-4815-a280-d2bf32a2b8a1)
