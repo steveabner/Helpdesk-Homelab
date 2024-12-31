@@ -107,7 +107,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 ### Open Server Manager & Install AD DS
 - Within the VM, click `start` and select `Server Manager`
 
-![Screenshot 2024-12-30 145633](https://github.com/user-attachments/assets/38ee87c4-8674-400e-bbfe-615c5cc283c3)
+  ![Screenshot 2024-12-30 145633](https://github.com/user-attachments/assets/38ee87c4-8674-400e-bbfe-615c5cc283c3)
 
 - On the server manager dashboard, click `Manage` and select `Add Roles and Features`.
 
