@@ -97,8 +97,10 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 
 ---
 
+## 🌐 Active Directory Domain Services (AD DS)
+
 <details>
-<summary>🌐 Step-by-Step Guide: Installing Active Directory Domain Services (AD DS)</summary>
+<summary>Installing Active Directory Domain Services</summary>
 
 ---
 
