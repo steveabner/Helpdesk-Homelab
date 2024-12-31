@@ -272,7 +272,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 </details>
 
 
-## 👥 Access Active Directory Users and Computers
+## 👥 Active Directory Users and Computers
 
 As part of my Active Directory setup, I will utilize the Active Directory Users and Computers (ADUC) tool to create and manage user accounts. Specifically, I will create a Helpdesk Admin account with elevated privileges for administrative tasks and Helpdesk Support user accounts with restricted access tailored for day-to-day support operations.
 
