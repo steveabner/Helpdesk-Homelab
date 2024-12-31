@@ -111,11 +111,11 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 - On the server manager dashboard, click `Manage` and select `Add Roles and Features`.
 
-![Screenshot 2024-12-30 150222](https://github.com/user-attachments/assets/9be5e3e2-1c64-4147-838f-749d3fef7465)
+  ![Screenshot 2024-12-30 150222](https://github.com/user-attachments/assets/9be5e3e2-1c64-4147-838f-749d3fef7465)
 
 - When the installation wizard appears, click `Next`.
 
-![Screenshot 2024-12-30 150916](https://github.com/user-attachments/assets/e6f552f3-af02-446c-8879-afba8f498b86)
+  ![Screenshot 2024-12-30 150916](https://github.com/user-attachments/assets/e6f552f3-af02-446c-8879-afba8f498b86)
 
 - For the installation type, Select `Role-based or Feature-based Installation`, then click `Next`
   
@@ -123,24 +123,24 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 - For the destination server, I'll choose `Select a server from the server pool`, then click `Next`
 
-![Screenshot 2024-12-30 202357](https://github.com/user-attachments/assets/7a214833-6591-4b29-a9fd-68eea3139cda)
+  ![Screenshot 2024-12-30 202357](https://github.com/user-attachments/assets/7a214833-6591-4b29-a9fd-68eea3139cda)
 
 - For the server roles, I'll select `Active Directory Domain Services`, click `Add Features`, then click `Next`
 
-![Screenshot 2024-12-30 202425](https://github.com/user-attachments/assets/aacaaec9-f312-43c4-8bf3-b265e8ff67de)
-![Screenshot 2024-12-30 202441](https://github.com/user-attachments/assets/c324e71c-6519-4332-8088-32a4f6b0227f)
+  ![Screenshot 2024-12-30 202425](https://github.com/user-attachments/assets/aacaaec9-f312-43c4-8bf3-b265e8ff67de)
+  ![Screenshot 2024-12-30 202441](https://github.com/user-attachments/assets/c324e71c-6519-4332-8088-32a4f6b0227f)
 
--  On the Features tab, I'll leave everything as is, then click `Next`
+- On the Features tab, I'll leave everything as is, then click `Next`
 
-![Screenshot 2024-12-30 202630](https://github.com/user-attachments/assets/ad15bf3e-25a3-4ebd-97f5-bf094347d04d)
+  ![Screenshot 2024-12-30 202630](https://github.com/user-attachments/assets/ad15bf3e-25a3-4ebd-97f5-bf094347d04d)
 
 - On the AD DS tab, just click `Next`
 
-![Screenshot 2024-12-30 202638](https://github.com/user-attachments/assets/a5019e91-2ae0-4e72-9977-2451d926c20b)
+  ![Screenshot 2024-12-30 202638](https://github.com/user-attachments/assets/a5019e91-2ae0-4e72-9977-2451d926c20b)
 
 - And finally, on the Confirmation tab, I'll click `Install`
 
-![Screenshot 2024-12-30 202649](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
+  ![Screenshot 2024-12-30 202649](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
 
 
 </details>
