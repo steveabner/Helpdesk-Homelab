@@ -14,7 +14,6 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
   ![1000001972](https://github.com/user-attachments/assets/6957e9d5-d26d-48c4-9ef7-ad7b1bc7d492)
 </details>
 
-
 ## 📦 VirtualBox & Server 2019 Setup
 
 <details>
@@ -98,50 +97,9 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
 - The VM is now ready and operational!  
 
   ![Completed Setup Screenshot](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
-
 </details>
 
-
-
-</details>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 ## 🛠️ Troubleshooting: Laggy Mouse and Display Scaling Issues
 
