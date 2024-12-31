@@ -212,7 +212,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 ## 🛠️ Open Server Manager & Start Installation
 
 1️⃣ Launch Server Manager  
-- Open the VM, click `Start`, and select `Server Manager`.  
+- Open the VM, Server Manager should start automatically. If not, click `Start`, and select `Server Manager`.  
 
   ![Server Manager](https://github.com/user-attachments/assets/38ee87c4-8674-400e-bbfe-615c5cc283c3)
 
@@ -228,17 +228,17 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 3️⃣ Begin Installation  
 - When the installation wizard appears, click `Next`.  
 
-  ![Installation Wizard](https://github.com/user-attachments/assets/e6f552f3-af02-446c-8879-afba8f498b86)
+  ![Screenshot 2024-12-31 000254](https://github.com/user-attachments/assets/7a82862c-b490-4c80-bdbf-91d54251bd5a)
 
 4️⃣ Select Installation Type  
 - Choose `Role-based or Feature-based Installation`, then click `Next`.  
 
-  ![Installation Type](https://github.com/user-attachments/assets/73e08efb-b176-4a52-8d19-78769956c37f)
+  ![Screenshot 2024-12-31 000345](https://github.com/user-attachments/assets/d018a402-c014-481d-883b-b39e03ea8c36)
 
 5️⃣ Pick the Destination Server  
-- Select `A server from the server pool` and click `Next`.  
+- Click `Select a server from the server pool` and click `Next`.  
 
-  ![Destination Server](https://github.com/user-attachments/assets/7a214833-6591-4b29-a9fd-68eea3139cda)
+  ![Screenshot 2024-12-31 000419](https://github.com/user-attachments/assets/01baa936-5ab2-43d9-9773-808b8b11b77f)
 
 ---
 
