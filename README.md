@@ -44,7 +44,7 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
   
 - Open VirtualBox, select the Server 2019 VM, and click `Start`.  
 
-  ![Start VM Screenshot](https://github.com/user-attachments/assets/7edc6fc4-1556-4406-96ee-de5e4400a55a)
+  ![Screenshot 2024-12-30 222155](https://github.com/user-attachments/assets/aea67364-b653-4e10-a01c-7224353797f1)
 
 - Once installed, the VM will be ready and operational!  
 
