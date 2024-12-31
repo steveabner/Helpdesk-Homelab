@@ -133,7 +133,6 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 
 </details>
 
----
 
 ## 🌐 Active Directory Domain Services (AD DS)
 
