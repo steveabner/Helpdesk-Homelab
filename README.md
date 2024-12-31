@@ -46,11 +46,86 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
   ![Screenshot 2024-12-30 222155](https://github.com/user-attachments/assets/aea67364-b653-4e10-a01c-7224353797f1)
 
-- Once installed, the VM will be ready and operational!  
+- Once the VM boots, I'll set my Language, Time and currency format, and Input method, then click `Next`
 
-  ![Completed Setup Screenshot](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
+  ![Screenshot 2024-12-30 222422](https://github.com/user-attachments/assets/7f843eda-bf00-448a-b989-69419e93d474)
+
+- On the windows setup screen, I'll click `Install Now`
+
+  ![Screenshot 2024-12-30 222436](https://github.com/user-attachments/assets/6c0f8e19-4b0f-4724-8fe5-67449d19eb45)
+
+- On the next page, I'll make sure to select `Desktop Experience`, then click `Next`
+
+  ![Screenshot 2024-12-30 222801](https://github.com/user-attachments/assets/e6746f98-533b-47cc-a1b8-075ce4e1152c)
+
+- Accept the License terms, then click `Next`
+
+  ![Screenshot 2024-12-30 223212](https://github.com/user-attachments/assets/471b37db-b583-4a97-b7cd-81bd2ea4c1bf)
+
+- On the next page, I'll select `Custom Install`
+
+  ![Screenshot 2024-12-30 223219](https://github.com/user-attachments/assets/27856ea1-6fac-4f08-9ccc-4507187cc1ff)
+
+- On the Disk Allocation page, select the 50GB drive, then click `Next`
+
+  ![Screenshot 2024-12-30 223224](https://github.com/user-attachments/assets/b759346e-a54e-49df-a344-df8de5d71bdc)
+
+- Windows will begin the installation process.
+ 
+  ![Screenshot 2024-12-30 223251](https://github.com/user-attachments/assets/b60d5f85-1425-45fd-8a05-ae7e90379c59)
+
+- Once prompted, I'll input a password, then click `Finish`
+
+  ![Screenshot 2024-12-30 223851](https://github.com/user-attachments/assets/44d64ac8-147b-4ac5-873b-f26b38713821)
+
+- When at the Windows login screen, press `right ctrl + del`, then enter the password to log in.
+- NOTE: you have to use ctrl+del since this is a VM. You could also go to `Input` → `Keyboard`, then click `Insert Ctrl-Alt-Del` to achieve the same thing.
+
+  ![Screenshot 2024-12-30 224856](https://github.com/user-attachments/assets/9db6dc9f-c7cd-42dc-8826-ae1b05abcea8)
+
+
+
+
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 🛠️ Troubleshooting: Laggy Mouse and Display Scaling Issues
 
