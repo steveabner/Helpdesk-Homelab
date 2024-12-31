@@ -38,7 +38,7 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
   
 - Click `Finish` to complete the setup.  
 
-  ![Finish Setup Screenshot](https://github.com/user-attachments/assets/947730a2-d6cb-45da-8d7f-3970f32a3ad2)
+  ![Screenshot 2024-12-30 222023](https://github.com/user-attachments/assets/54dd2892-fd6b-47fd-91b5-7c71a06cd88a)
 
 ### 5️⃣ Install Windows Server 2019
   
