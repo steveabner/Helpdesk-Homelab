@@ -8,7 +8,7 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controller, while my main PC and an older MSI gaming laptop will act as user devices. To preserve the original operating systems on all systems, I will utilize VirtualBox to create virtual machines on each device.
 
 <details>
-<summary>Here's a couple of pictures for nerds, like me 😊</summary>
+<summary> Here are a couple of pictures for nerds, like me 😊</summary>
 
   ![1000001973](https://github.com/user-attachments/assets/f65b355a-97fa-4618-8f96-78643b99318b)
   ![1000001972](https://github.com/user-attachments/assets/6957e9d5-d26d-48c4-9ef7-ad7b1bc7d492)
@@ -60,7 +60,7 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
 
   ![Screenshot 2024-12-30 222422](https://github.com/user-attachments/assets/7f843eda-bf00-448a-b989-69419e93d474)
 
-- On the windows setup screen, I'll click `Install Now`
+- On the Windows setup screen, I'll click `Install Now`
 
   ![Screenshot 2024-12-30 222436](https://github.com/user-attachments/assets/6c0f8e19-4b0f-4724-8fe5-67449d19eb45)
 
@@ -272,6 +272,8 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 </details>
 
+##👥🖥️ Active Directory Users and Computers
+
 <details>
-<summary>👥🖥️ Active Directory Users and Computers</summary>
-👥🖥️
+<summary>👥🖥️ Installing Active Directory Users and Computers</summary>
+
