@@ -119,7 +119,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 - For the installation type, Select `Role-based or Feature-based Installation`, then click `Next`
   
-![Screenshot 2024-12-30 150921](https://github.com/user-attachments/assets/73e08efb-b176-4a52-8d19-78769956c37f)
+  ![Screenshot 2024-12-30 150921](https://github.com/user-attachments/assets/73e08efb-b176-4a52-8d19-78769956c37f)
 
 - For the destination server, I'll choose `Select a server from the server pool`, then click `Next`
 
