@@ -99,8 +99,6 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
   ![Completed Setup Screenshot](https://github.com/user-attachments/assets/f7e23cec-1efd-4d81-92c8-125c7e41b602)
 </details>
 
----
-
 ## 🛠️ Troubleshooting: Laggy Mouse and Display Scaling Issues
 
 <details>
@@ -143,8 +141,6 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 <details>
 <summary>🌐 Installing Active Directory Domain Services</summary>
-
----
 
 ## 🛠️ Prepare the Server
 
@@ -276,3 +272,6 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 </details>
 
+<details>
+<summary>👥🖥️ Active Directory Users and Computers</summary>
+👥🖥️
