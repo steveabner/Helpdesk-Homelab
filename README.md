@@ -247,17 +247,21 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 6️⃣ Add the Role  
 - Select `Active Directory Domain Services`, click `Add Features`, then click `Next`.  
 
-  ![AD DS Role](https://github.com/user-attachments/assets/aacaaec9-f312-43c4-8bf3-b265e8ff67de)
+  ![Screenshot 2024-12-31 000520](https://github.com/user-attachments/assets/1dcd19c7-97e7-4b31-9850-4d68bbcc8b23)
+  ![Screenshot 2024-12-31 000525](https://github.com/user-attachments/assets/3c728739-f489-430c-9f91-09a4bba1588d)
+  ![Screenshot 2024-12-31 000536](https://github.com/user-attachments/assets/985b3299-65b1-4d3f-9d14-df927c03b9c8)
 
 7️⃣ Review Features  
 - On the Features tab, leave everything as is, then click `Next`.  
 
-  ![Features Tab](https://github.com/user-attachments/assets/ad15bf3e-25a3-4ebd-97f5-bf094347d04d)
+  ![Screenshot 2024-12-31 000542](https://github.com/user-attachments/assets/78136f6a-6a4f-4b78-b347-479015962083)
 
 8️⃣ Confirm Installation  
 - On the AD DS tab, click `Next`, then `Install` on the Confirmation tab.  
 
-  ![Confirmation Tab](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
+  ![Screenshot 2024-12-31 000547](https://github.com/user-attachments/assets/25a8f8d0-fde5-43c7-946e-9b8758cd5a8f)
+  ![Screenshot 2024-12-31 000558](https://github.com/user-attachments/assets/2925c475-10e1-4182-a63f-54b793c11751)
+  ![Screenshot 2024-12-31 000637](https://github.com/user-attachments/assets/b2f79e7e-40ed-4bab-ac77-b59394cfbf12)
 
 ---
 
@@ -266,31 +270,40 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 9️⃣ Start Promotion  
 - After installation, click `Promote this server to a domain controller`.  
 
+  ![Screenshot 2024-12-31 001444](https://github.com/user-attachments/assets/61a5b6f4-e561-4610-b780-62916663398d)
+
 - Add a New Forest: I chose to use `goodcorp.com`.  
-  ![Add Forest](https://github.com/user-attachments/assets/37d8898a-2e16-4140-96f2-cab44caf2007)
+
+  ![Screenshot 2024-12-31 001609](https://github.com/user-attachments/assets/c52bdb0f-9b8d-4518-a96d-34e85b6d1cd8)
 
 🔟 Set Domain Controller Options  
 - Input a password and click `Next`.  
-  ![Domain Controller Options](https://github.com/user-attachments/assets/fe8cc402-6b68-4f18-bf8f-d44549f21b7d)
+
+  ![Screenshot 2024-12-31 001704](https://github.com/user-attachments/assets/68ed86d6-8756-4b97-99a0-2a014152423b)
 
 ---
 
 ## 🔗 Configure Additional Settings
 
 - DNS Options: Leave unchecked and click `Next`.  
-  ![DNS Options](https://github.com/user-attachments/assets/8ad70ae0-355c-4053-a979-dbed3285a9f4)
+
+  ![Screenshot 2024-12-31 001802](https://github.com/user-attachments/assets/a5e73027-9c07-474e-b6e2-8c4db2cd0a68)
 
 - NetBIOS Name: Leave as is and click `Next`.  
-  ![NetBIOS Name](https://github.com/user-attachments/assets/e9b7b17f-c5ba-4379-a8fc-d20ce6578d4d)
+
+  ![Screenshot 2024-12-31 001819](https://github.com/user-attachments/assets/126cedc0-4881-49fb-a9b7-afc20d7e1b71)
 
 - Paths Tab: Keep defaults and click `Next`.  
-  ![Paths Tab](https://github.com/user-attachments/assets/3b4c5adb-c728-4cf3-b68d-8110341e2bf5)
+
+  ![Screenshot 2024-12-31 001829](https://github.com/user-attachments/assets/15aae331-8cc1-4401-92e8-e2af55f0d473)
 
 - Review Tab: Click `Next`.  
-  ![Review Tab](https://github.com/user-attachments/assets/e0e265e5-aa25-4e6d-bdb6-02794982ebb3)
+
+  ![Screenshot 2024-12-31 001841](https://github.com/user-attachments/assets/023c6f47-42bc-4d32-ba3a-3c5b452b8f94)
 
 - Prerequisites Check: Click `Install`.  
-  ![Prerequisites Check](https://github.com/user-attachments/assets/abfb3074-a958-4c4c-9385-5edd5b859208)
+
+  ![Screenshot 2024-12-31 001859](https://github.com/user-attachments/assets/31db2f43-57ce-481f-bf0a-a7d890b8e4cc)
 
 ---
 
@@ -299,7 +312,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 ✅ Installation Complete  
 - Once the installation completes, the VM will automatically restart.  
 
-  ![Restart](https://github.com/user-attachments/assets/7eeefc23-2ad1-47ff-a921-f47941e80350)
+  ![Screenshot 2024-12-31 001941](https://github.com/user-attachments/assets/865bf457-60eb-4ef9-aa66-86d8d6727a7c)
 
 ---
 
