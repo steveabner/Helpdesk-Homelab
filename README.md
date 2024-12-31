@@ -141,8 +141,6 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 - And finally, on the Confirmation tab, I'll click `Install`, and when the installation was complete, I clicked `Promote this server to a domain controller`
 
   ![Screenshot 2024-12-30 202649](https://github.com/user-attachments/assets/368b274c-91bf-4bae-872d-2ec3fde34ff2)
-
-  ![Screenshot 2024-12-30 202706](https://github.com/user-attachments/assets/ff2ca772-072e-491b-bc91-d90ab1f960cc)
   
 - On the Deployment Configuration tab, I clicked `Add a new forest` and named it `goodcorp.com`
 
