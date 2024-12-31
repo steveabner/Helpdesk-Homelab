@@ -99,6 +99,8 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 
 ## 🌐 Active Directory Domain Services (AD DS)
 
+Active Directory Domain Services (AD DS) is a critical role for managing user identities, groups, and resources in a centralized domain. To install AD DS on Windows Server 2019, I used the Server Manager to add the role, configured it as the primary domain controller, and set up the domain goodcorp.com. This step establishes the foundation for centralized management and security in the lab environment.
+
 <details>
 <summary>Installing Active Directory Domain Services</summary>
 
