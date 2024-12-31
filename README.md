@@ -14,10 +14,10 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
   ![1000001972](https://github.com/user-attachments/assets/6957e9d5-d26d-48c4-9ef7-ad7b1bc7d492)
 </details>-->
 
-## 📦 VirtualBox & Server 2019 Setup
+## 📦 VirtualBox - Server 2019 & Windows 10 Setup
 
 <details>
-<summary>💻 Steps to Configure VirtualBox and Install Server 2019</summary>
+<summary>💻 Steps to Configure VirtualBox and Install Server 2019 & Windows 10</summary>
 
 ### 1️⃣ Download and Install VirtualBox
 - To start I visited the [VirtualBox website](https://www.oracle.com/virtualization/technologies/vm/downloads/virtualbox-downloads.html) and downloaded the latest version.  
