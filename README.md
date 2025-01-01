@@ -336,11 +336,16 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
   ![Screenshot 2024-12-31 134840](https://github.com/user-attachments/assets/3d25a144-6469-4d9a-af28-c0d01cd87508)
 
+</details>
 
 
+## 🖥️ Configuring Static IPs & Domain Joining
+
+<details>
+  <summary>Configure a Static IP For The Domain</summary>
 
 
-
+  
 </details>
 
 
