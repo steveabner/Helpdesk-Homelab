@@ -101,13 +101,29 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
 
 </details>
 
-## 📦 VirtualBox - Setting up an Internal Network Adaptor
+## 📦 VirtualBox - Setting up an Internal Network Adapter
 The Server 2019 VM will have two NICs set up in VirtualBox: one external NIC for internet access and one internal NIC for communication within the domain and with local machines.
 
 <details>
-  <summary>📦 Setting Up the VirtualBox Network</summary>
+<summary>📦 Setting Up the VirtualBox Network</summary>
 
+- On the host machine, I'll launch VirtualBox, select the Server 2019 VM, and click `Settings`.
 
+  ![Screenshot 2024-12-31 205055](https://github.com/user-attachments/assets/5775fb11-80c9-4811-a548-2d58790a5d20)
+
+- On the Settings window, switch to `Expert Mode` in the top left corner.
+
+  ![Screenshot 2024-12-31 205116](https://github.com/user-attachments/assets/6c65c99c-5760-4cbf-a0a6-c7403fbcd184)
+
+- Select `Network` from the menu to the left. Make sure Adapter 1 is enabled and set to `NAT` or `Bridged`
+
+![Screenshot 2024-12-31 205130](https://github.com/user-attachments/assets/9fab0c51-00d1-46d1-a2bf-326bf6376dfd)
+
+- Click the Adapter 2 tab and check `Enable Network Adapter` then select `Internal Network` and click `OK`
+
+  ![Screenshot 2024-12-31 205154](https://github.com/user-attachments/assets/0081597c-bb98-42d1-b84a-88767b17aeb2)
+
+- The VirtualBox network adapters are now set up properly. This will allow me to have static ips on one nic, while still giving access to the internet from the other.
 
 </details>
 
