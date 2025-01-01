@@ -369,11 +369,24 @@ This section focuses on configuring a static IP address and performing domain jo
 <details>
 <summary>🖥️ Configure a Static IP For The Domain</summary>
 
-1️⃣ Enable an Internal NIC within VirtualBox
-When setting up VirtualBox, I forgot to set up a second network adapter, so I will do it here.
+1️⃣ Assigning a Static IP
+- To access the network adapters within the VM. I'll right-click `Start` and click `Network Connections`
+
+  ![Screenshot 2024-12-31 223203](https://github.com/user-attachments/assets/9f9aef50-e65c-4939-8609-a7f1bc285842)
+
+- In the Network Connections window, click `Change Adapter Options`
+
+  ![Screenshot 2024-12-31 223220](https://github.com/user-attachments/assets/34dd4bcc-465c-45f2-b19f-42f1c1e1a931)
+
+- I'll now identify the internal network adapter by right-clicking `Ethernet` and `Ethernet 2` and selecting `Status`.
+
+![Screenshot 2024-12-31 224601](https://github.com/user-attachments/assets/0ab866e8-3723-4094-aaf3-dbc8a70868ca)![Screenshot 2024-12-31 224626](https://github.com/user-attachments/assets/ccc3c678-332a-4efb-837a-f1ae1995e118)
 
 
-  
+
+
+
+
 </details>
 
 
