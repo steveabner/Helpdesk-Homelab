@@ -363,6 +363,12 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 </details>
 
 
+
+
+
+
+
+
 ## 🖥️ Configuring Static IPs & Domain Joining
 This section focuses on configuring a static IP address and performing domain joining on a Windows Server 2019 instance. The goal is to establish a stable network connection and integrate the server into an Active Directory domain for centralized management
 
@@ -378,6 +384,8 @@ This section focuses on configuring a static IP address and performing domain jo
 
   ![Screenshot 2024-12-31 223220](https://github.com/user-attachments/assets/34dd4bcc-465c-45f2-b19f-42f1c1e1a931)
 
+### 2️⃣ Identifying the Internal Adapter 
+
 - I'll now identify the internal network adapter by right-clicking `Ethernet` and `Ethernet 2` and selecting `Status`.
 
   ![Screenshot 2024-12-31 224601](https://github.com/user-attachments/assets/0ab866e8-3723-4094-aaf3-dbc8a70868ca)
@@ -387,8 +395,12 @@ This section focuses on configuring a static IP address and performing domain jo
 
   ![Screenshot 2024-12-31 225150](https://github.com/user-attachments/assets/8c2c5410-9ae0-45ef-87f1-48e65caa7a6f)
 
-- Just to confirm my suspicions, I'll click `Details` on each adapter.  
+### 3️⃣ Verifying the Details 
 
+- To verify, I'll click `Details` on each adapter.  
+  - Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers.
+  - In contrast, Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
+  - 
   ![Screenshot 2024-12-31 230549](https://github.com/user-attachments/assets/b33fa348-8062-4968-8f3a-bcda4a86af41)
 
 - Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers. In contrast, Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
