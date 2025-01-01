@@ -340,6 +340,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 
 ## 🖥️ Configuring Static IPs & Domain Joining
+Configuring a static IP and domain joining on Windows Server 2019 to ensure stable network connectivity and integrate with Active Directory for centralized management.
 
 <details>
   <summary>🖥️ Configure a Static IP For The Domain</summary>
