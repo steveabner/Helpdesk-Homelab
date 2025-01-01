@@ -101,7 +101,15 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
 
 </details>
 
+## 📦 VirtualBox - Setting up an Internal Network Adaptor
+The Server 2019 VM will have two NICs set up in VirtualBox: one external NIC for internet access and one internal NIC for communication within the domain and with local machines.
 
+<details>
+  <summary>📦 Setting Up the VirtualBox Network</summary>
+
+
+
+</details>
 
 
 
@@ -343,7 +351,10 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 This section focuses on configuring a static IP address and performing domain joining on a Windows Server 2019 instance. The goal is to establish a stable network connection and integrate the server into an Active Directory domain for centralized management
 
 <details>
-  <summary>🖥️ Configure a Static IP For The Domain</summary>
+<summary>🖥️ Configure a Static IP For The Domain</summary>
+
+1️⃣ Enable an Internal NIC within VirtualBox
+When setting up VirtualBox, I forgot to set up a second network adapter, so I will do it here.
 
 
   
