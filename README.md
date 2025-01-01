@@ -363,66 +363,67 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 </details>
 
 
-## 🖥️ Configuring Static IPs & Domain Joining
-This section focuses on configuring a static IP address and performing domain joining on a Windows Server 2019 instance. The goal is to establish a stable network connection and integrate the server into an Active Directory domain for centralized management
+## 🖥️ Configuring Static IPs & Domain Joining  
+This section focuses on configuring a static IP address and performing domain joining on a Windows Server 2019 instance. The goal is to establish a stable network connection and integrate the server into an Active Directory domain for centralized management.
 
-<details>
-<summary>🖥️ Configure a Static IP For The Domain</summary>
+---
 
-### 1️⃣ Assigning a Static IP
-- To access the network adapters within the VM. I'll right-click `Start` and click `Network Connections`
+<details>  
+<summary>🖥️ Configure a Static IP for the Domain</summary>  
 
-  ![Screenshot 2024-12-31 223203](https://github.com/user-attachments/assets/9f9aef50-e65c-4939-8609-a7f1bc285842)
+### 1️⃣ Assigning a Static IP  
 
-- In the Network Connections window, click `Change Adapter Options`
+#### Access Network Adapters:
+- Right-click Start on the VM and select Network Connections.  
+  ![Network Connections](https://github.com/user-attachments/assets/9f9aef50-e65c-4939-8609-a7f1bc285842)
 
-  ![Screenshot 2024-12-31 223220](https://github.com/user-attachments/assets/34dd4bcc-465c-45f2-b19f-42f1c1e1a931)
+- In the Network Connections window, click Change Adapter Options.  
+  ![Change Adapter Options](https://github.com/user-attachments/assets/34dd4bcc-465c-45f2-b19f-42f1c1e1a931)
 
-- I'll now identify the internal network adapter by right-clicking `Ethernet` and `Ethernet 2` and selecting `Status`.
+#### Identifying the Network Adapters:
+- Right-click Ethernet and Ethernet 2, then select Status for each adapter.  
+  ![Ethernet Status](https://github.com/user-attachments/assets/0ab866e8-3723-4094-aaf3-dbc8a70868ca)  
+  ![Ethernet 2 Status](https://github.com/user-attachments/assets/ccc3c678-332a-4efb-837a-f1ae1995e118)
 
-  ![Screenshot 2024-12-31 224601](https://github.com/user-attachments/assets/0ab866e8-3723-4094-aaf3-dbc8a70868ca)
-  ![Screenshot 2024-12-31 224626](https://github.com/user-attachments/assets/ccc3c678-332a-4efb-837a-f1ae1995e118)
+#### Check Connectivity:
+- By examining the IPv4 Connectivity and Sent and Received Activity, you can identify the adapters:
+  - Ethernet: `IPv4 Connectivity: Internet`
+  - Ethernet 2: `No Network Access`  
+  ![Adapter Status](https://github.com/user-attachments/assets/8c2c5410-9ae0-45ef-87f1-48e65caa7a6f)
 
-- By examining the `IPv4 Connectivity` and `Sent and Received Activity`, it's clear which adapter is internet-facing and which is internal. Ethernet shows `IPv4 Connectivity: Internet`, while Ethernet 2 displays `No Network Access`.
+#### Confirm Adapter Details:
+- Click Details for each adapter to confirm their IP configurations.  
+  - Ethernet: Displays a valid IPv4 address, Default Gateway, DHCP, and DNS server.  
+  - Ethernet 2: Displays an Autoconfiguration IPv4 Address and no Default Gateway or DNS server.  
+  ![Adapter Details](https://github.com/user-attachments/assets/76f2e1a9-2ce3-4e4b-8892-d12bc48707d4)
 
-  ![Screenshot 2024-12-31 225150](https://github.com/user-attachments/assets/8c2c5410-9ae0-45ef-87f1-48e65caa7a6f)
+#### Rename Adapters:
+- Rename Ethernet to Internet and Ethernet 2 to Internal for clarity.  
+  ![Rename Adapters](https://github.com/user-attachments/assets/1ac63a47-a75a-4928-91d0-9d1490e9fc8b)  
 
-- Just to confirm my suspicions, I'll click `Details` on each adapter.  
+#### Configure Static IP:
+- Right-click Internal and select Properties.  
+  ![Adapter Properties](https://github.com/user-attachments/assets/638923fd-b16f-4915-82c1-ca97389bca8b)
 
-  ![Screenshot 2024-12-31 230549](https://github.com/user-attachments/assets/b33fa348-8062-4968-8f3a-bcda4a86af41)
+- In the properties window, double-click Internet Protocol Version 4 (TCP/IPv4).  
+  ![TCP/IPv4 Settings](https://github.com/user-attachments/assets/95694d0c-9925-462d-b1ff-37fafa366e0c)
 
-- Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers. In contrast, Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
+- Set the following configurations:
+  - IP Address: `172.25.0.1`  
+  - Subnet Mask: `255.255.255.0`  
+  - Preferred DNS Server: `127.0.0.1`  
+  ![Static IP Configuration](https://github.com/user-attachments/assets/c36681dc-3bce-4b92-a29f-477083248d40)
 
-  ![Screenshot 2024-12-31 230513](https://github.com/user-attachments/assets/76f2e1a9-2ce3-4e4b-8892-d12bc48707d4)
+- Click OK, then restart the VM.  
 
-- Now that I've determined which adapter is which, I'll right-click Ethernet and rename it to `Internet` then I'll right-click Ethernet 2 and rename it to `Internal`.
+---
 
-  ![Screenshot 2024-12-31 232146](https://github.com/user-attachments/assets/1ac63a47-a75a-4928-91d0-9d1490e9fc8b)
-  ![Screenshot 2024-12-31 232220](https://github.com/user-attachments/assets/6976eaf0-1c35-4076-87e2-d0510c33af4c)
-  ![Screenshot 2024-12-31 232247](https://github.com/user-attachments/assets/1c07f649-976b-4dd5-be1b-18058e177b09)
+#### Verify Configuration:
+- After the VM restarts, return to Network Connections and check the Details of the internal adapter to confirm that the static IP and subnet mask have been applied correctly.  
+  ![Verification](https://github.com/user-attachments/assets/537c92d1-3cf5-4fef-b20a-c021c1f97cb1)
 
-- Now that the adapters have been identified and renamed, I'll right-click `Internal` and click `Properties`
+- ✅ Everything looks good!  
 
-  ![Screenshot 2024-12-31 232431](https://github.com/user-attachments/assets/638923fd-b16f-4915-82c1-ca97389bca8b)
-
-- In the properties window, I'll double-click `Internet Protocol Version 4 (TCP/IPv4)`
-
-  ![Screenshot 2024-12-31 232532](https://github.com/user-attachments/assets/95694d0c-9925-462d-b1ff-37fafa366e0c)
-
-- I'll select `Use the following IP address` and set the IP address to `172.25.0.1`.
-- The subnet mask will be configured as `255.255.255.0`.
-- Finally, I'll set the Preferred DNS Server to the loopback address, `127.0.0.1`.
-
-  ![Screenshot 2024-12-31 233719](https://github.com/user-attachments/assets/c36681dc-3bce-4b92-a29f-477083248d40)
-
-- I'll click `OK`, then restart the VM
-
-- After the VM restarts, I'll return to Network Connections and check the Details of the internal adapter to verify that the static IP and subnet mask have been updated.
-
-  ![Screenshot 2024-12-31 235042](https://github.com/user-attachments/assets/537c92d1-3cf5-4fef-b20a-c021c1f97cb1)
-
-- Everything looks good
-  
 </details>
 
 
