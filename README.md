@@ -380,12 +380,42 @@ This section focuses on configuring a static IP address and performing domain jo
 
 - I'll now identify the internal network adapter by right-clicking `Ethernet` and `Ethernet 2` and selecting `Status`.
 
-![Screenshot 2024-12-31 224601](https://github.com/user-attachments/assets/0ab866e8-3723-4094-aaf3-dbc8a70868ca)![Screenshot 2024-12-31 224626](https://github.com/user-attachments/assets/ccc3c678-332a-4efb-837a-f1ae1995e118)
+  ![Screenshot 2024-12-31 224601](https://github.com/user-attachments/assets/0ab866e8-3723-4094-aaf3-dbc8a70868ca)
+  ![Screenshot 2024-12-31 224626](https://github.com/user-attachments/assets/ccc3c678-332a-4efb-837a-f1ae1995e118)
 
+- By examining the `IPv4 Connectivity` and `Sent and Received Activity`, it's clear which adapter is internet-facing and which is internal. Ethernet shows `IPv4 Connectivity: Internet`, while Ethernet 2 displays `No Network Access`.
 
+  ![Screenshot 2024-12-31 225150](https://github.com/user-attachments/assets/8c2c5410-9ae0-45ef-87f1-48e65caa7a6f)
 
+- Just to confirm my suspicions, I'll click `Details` on each adapter.  
 
+  ![Screenshot 2024-12-31 230549](https://github.com/user-attachments/assets/b33fa348-8062-4968-8f3a-bcda4a86af41)
 
+- Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers. In contrast, Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
+
+  ![Screenshot 2024-12-31 230513](https://github.com/user-attachments/assets/76f2e1a9-2ce3-4e4b-8892-d12bc48707d4)
+
+- Now that I've determined which adapter is which, I'll right-click Ethernet and rename it to `Internet` then I'll right-click Ethernet 2 and rename it to `Internal`.
+
+![Screenshot 2024-12-31 232146](https://github.com/user-attachments/assets/1ac63a47-a75a-4928-91d0-9d1490e9fc8b)
+![Screenshot 2024-12-31 232220](https://github.com/user-attachments/assets/6976eaf0-1c35-4076-87e2-d0510c33af4c)
+![Screenshot 2024-12-31 232247](https://github.com/user-attachments/assets/1c07f649-976b-4dd5-be1b-18058e177b09)
+
+- Now that the adapters have been identified and renamed, I'll right-click `Internal` and click `Properties`
+
+  ![Screenshot 2024-12-31 232431](https://github.com/user-attachments/assets/638923fd-b16f-4915-82c1-ca97389bca8b)
+
+- In the properties window, I'll double-click `Internet Protocol Version 4 (TCP/IPv4)`
+
+  ![Screenshot 2024-12-31 232532](https://github.com/user-attachments/assets/95694d0c-9925-462d-b1ff-37fafa366e0c)
+
+- I'll select `Use the following IP address` and set the IP address to `172.25.0.1`.
+- The subnet mask will be configured as `255.255.255.0`.
+- Finally, I'll set the Preferred DNS Server to the loopback address, `127.0.0.1`.
+
+  ![Screenshot 2024-12-31 233719](https://github.com/user-attachments/assets/c36681dc-3bce-4b92-a29f-477083248d40)
+
+- I'll click `OK`, then restart the VM
 
 </details>
 
