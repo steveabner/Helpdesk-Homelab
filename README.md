@@ -342,7 +342,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 ## 🖥️ Configuring Static IPs & Domain Joining
 
 <details>
-  <summary>Configure a Static IP For The Domain</summary>
+  <summary>🖥️ Configure a Static IP For The Domain</summary>
 
 
   
