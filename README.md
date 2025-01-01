@@ -397,9 +397,9 @@ This section focuses on configuring a static IP address and performing domain jo
 
 - Now that I've determined which adapter is which, I'll right-click Ethernet and rename it to `Internet` then I'll right-click Ethernet 2 and rename it to `Internal`.
 
-![Screenshot 2024-12-31 232146](https://github.com/user-attachments/assets/1ac63a47-a75a-4928-91d0-9d1490e9fc8b)
-![Screenshot 2024-12-31 232220](https://github.com/user-attachments/assets/6976eaf0-1c35-4076-87e2-d0510c33af4c)
-![Screenshot 2024-12-31 232247](https://github.com/user-attachments/assets/1c07f649-976b-4dd5-be1b-18058e177b09)
+  ![Screenshot 2024-12-31 232146](https://github.com/user-attachments/assets/1ac63a47-a75a-4928-91d0-9d1490e9fc8b)
+  ![Screenshot 2024-12-31 232220](https://github.com/user-attachments/assets/6976eaf0-1c35-4076-87e2-d0510c33af4c)
+  ![Screenshot 2024-12-31 232247](https://github.com/user-attachments/assets/1c07f649-976b-4dd5-be1b-18058e177b09)
 
 - Now that the adapters have been identified and renamed, I'll right-click `Internal` and click `Properties`
 
