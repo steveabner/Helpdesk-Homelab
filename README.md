@@ -117,7 +117,7 @@ The Server 2019 VM will have two NICs set up in VirtualBox: one external NIC for
 
 - Select `Network` from the menu to the left. Make sure Adapter 1 is enabled and set to `NAT` or `Bridged`
 
-![Screenshot 2024-12-31 205130](https://github.com/user-attachments/assets/9fab0c51-00d1-46d1-a2bf-326bf6376dfd)
+  ![Screenshot 2024-12-31 205130](https://github.com/user-attachments/assets/9fab0c51-00d1-46d1-a2bf-326bf6376dfd)
 
 - Click the Adapter 2 tab and check `Enable Network Adapter` then select `Internal Network` and click `OK`
 
