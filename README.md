@@ -369,7 +369,7 @@ This section focuses on configuring a static IP address and performing domain jo
 <details>
 <summary>🖥️ Configure a Static IP For The Domain</summary>
 
-1️⃣ Assigning a Static IP
+###1️⃣ Assigning a Static IP
 - To access the network adapters within the VM. I'll right-click `Start` and click `Network Connections`
 
   ![Screenshot 2024-12-31 223203](https://github.com/user-attachments/assets/9f9aef50-e65c-4939-8609-a7f1bc285842)
