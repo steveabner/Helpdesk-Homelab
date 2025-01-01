@@ -373,39 +373,41 @@ This section focuses on configuring a static IP address and performing domain jo
 
 ### 1️⃣ Assigning a Static IP  
 
-#### Access Network Adapters:
-- Right-click Start on the VM and select Network Connections.  
+- Right-click **Start** on the VM and select **Network Connections**.  
   ![Network Connections](https://github.com/user-attachments/assets/9f9aef50-e65c-4939-8609-a7f1bc285842)
 
-- In the Network Connections window, click Change Adapter Options.  
+- In the **Network Connections** window, click **Change Adapter Options**.  
   ![Change Adapter Options](https://github.com/user-attachments/assets/34dd4bcc-465c-45f2-b19f-42f1c1e1a931)
 
-#### Identifying the Network Adapters:
-- Right-click Ethernet and Ethernet 2, then select Status for each adapter.  
+### 2️⃣ Identifying the Internal Adapter  
+
+- Right-click **Ethernet** and **Ethernet 2**, then select **Status** for each adapter.  
   ![Ethernet Status](https://github.com/user-attachments/assets/0ab866e8-3723-4094-aaf3-dbc8a70868ca)  
   ![Ethernet 2 Status](https://github.com/user-attachments/assets/ccc3c678-332a-4efb-837a-f1ae1995e118)
 
-#### Check Connectivity:
-- By examining the IPv4 Connectivity and Sent and Received Activity, you can identify the adapters:
-  - Ethernet: `IPv4 Connectivity: Internet`
-  - Ethernet 2: `No Network Access`  
+- By examining the **IPv4 Connectivity** and **Sent and Received Activity**, you can identify the adapters:
+  - **Ethernet**: `IPv4 Connectivity: Internet`
+  - **Ethernet 2**: `No Network Access`  
   ![Adapter Status](https://github.com/user-attachments/assets/8c2c5410-9ae0-45ef-87f1-48e65caa7a6f)
 
-#### Confirm Adapter Details:
-- Click Details for each adapter to confirm their IP configurations.  
-  - Ethernet: Displays a valid IPv4 address, Default Gateway, DHCP, and DNS server.  
-  - Ethernet 2: Displays an Autoconfiguration IPv4 Address and no Default Gateway or DNS server.  
+### 3️⃣ Verifying the Details  
+
+- Click **Details** for each adapter to confirm their IP configurations.  
+  - **Ethernet**: Displays a valid IPv4 address, Default Gateway, DHCP, and DNS server.  
+  - **Ethernet 2**: Displays an Autoconfiguration IPv4 Address and no Default Gateway or DNS server.  
   ![Adapter Details](https://github.com/user-attachments/assets/76f2e1a9-2ce3-4e4b-8892-d12bc48707d4)
 
-#### Rename Adapters:
-- Rename Ethernet to Internet and Ethernet 2 to Internal for clarity.  
+### 4️⃣ Renaming the Adapters  
+
+- Rename **Ethernet** to **Internet** and **Ethernet 2** to **Internal** for clarity.  
   ![Rename Adapters](https://github.com/user-attachments/assets/1ac63a47-a75a-4928-91d0-9d1490e9fc8b)  
 
-#### Configure Static IP:
-- Right-click Internal and select Properties.  
+### 5️⃣ Configuring the IP Settings  
+
+- Right-click **Internal** and select **Properties**.  
   ![Adapter Properties](https://github.com/user-attachments/assets/638923fd-b16f-4915-82c1-ca97389bca8b)
 
-- In the properties window, double-click Internet Protocol Version 4 (TCP/IPv4).  
+- In the properties window, double-click **Internet Protocol Version 4 (TCP/IPv4)**.  
   ![TCP/IPv4 Settings](https://github.com/user-attachments/assets/95694d0c-9925-462d-b1ff-37fafa366e0c)
 
 - Set the following configurations:
@@ -414,17 +416,21 @@ This section focuses on configuring a static IP address and performing domain jo
   - Preferred DNS Server: `127.0.0.1`  
   ![Static IP Configuration](https://github.com/user-attachments/assets/c36681dc-3bce-4b92-a29f-477083248d40)
 
-- Click OK, then restart the VM.  
+### 6️⃣ Finalizing the Configuration  
+
+- Click **OK**, then restart the VM.  
 
 ---
 
-#### Verify Configuration:
-- After the VM restarts, return to Network Connections and check the Details of the internal adapter to confirm that the static IP and subnet mask have been applied correctly.  
+### 7️⃣ Verifying the Settings  
+
+- After the VM restarts, return to **Network Connections** and check the **Details** of the internal adapter to confirm that the static IP and subnet mask have been applied correctly.  
   ![Verification](https://github.com/user-attachments/assets/537c92d1-3cf5-4fef-b20a-c021c1f97cb1)
 
 - ✅ Everything looks good!  
 
 </details>
+
 
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
