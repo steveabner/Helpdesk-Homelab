@@ -417,6 +417,12 @@ This section focuses on configuring a static IP address and performing domain jo
 
 - I'll click `OK`, then restart the VM
 
+- After the VM restarts, I'll return to Network Connections and check the Details of the internal adapter to verify that the static IP and subnet mask have been updated.
+
+  ![Screenshot 2024-12-31 235042](https://github.com/user-attachments/assets/537c92d1-3cf5-4fef-b20a-c021c1f97cb1)
+
+- Everything looks good
+  
 </details>
 
 
