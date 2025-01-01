@@ -372,6 +372,8 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 ## 🖥️ Configuring Static IPs & Domain Joining
 This section focuses on configuring a static IP address and performing domain joining on a Windows Server 2019 instance. The goal is to establish a stable network connection and integrate the server into an Active Directory domain for centralized management
 
+---
+
 <details>
 <summary>🖥️ Configure a Static IP For The Domain</summary>
 
@@ -398,20 +400,23 @@ This section focuses on configuring a static IP address and performing domain jo
 ### 3️⃣ Verifying the Details 
 
 - To verify, I'll click `Details` on each adapter.  
-  - Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers.
-  - In contrast, Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
-  - 
+  
   ![Screenshot 2024-12-31 230549](https://github.com/user-attachments/assets/b33fa348-8062-4968-8f3a-bcda4a86af41)
 
-- Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers. In contrast, Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
+- Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers.
+- Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
 
   ![Screenshot 2024-12-31 230513](https://github.com/user-attachments/assets/76f2e1a9-2ce3-4e4b-8892-d12bc48707d4)
 
-- Now that I've determined which adapter is which, I'll right-click Ethernet and rename it to `Internet` then I'll right-click Ethernet 2 and rename it to `Internal`.
+### 4️⃣ Renaming the Adapters
+
+- To clarify things, I'll rename both adapters: I'll right-click on Ethernet and rename it to `Internet`, then right-click on Ethernet 2 and rename it to `Internal`.
 
   ![Screenshot 2024-12-31 232146](https://github.com/user-attachments/assets/1ac63a47-a75a-4928-91d0-9d1490e9fc8b)
   ![Screenshot 2024-12-31 232220](https://github.com/user-attachments/assets/6976eaf0-1c35-4076-87e2-d0510c33af4c)
   ![Screenshot 2024-12-31 232247](https://github.com/user-attachments/assets/1c07f649-976b-4dd5-be1b-18058e177b09)
+
+### 5️⃣ Configuring the IP Settings 
 
 - Now that the adapters have been identified and renamed, I'll right-click `Internal` and click `Properties`
 
@@ -427,13 +432,19 @@ This section focuses on configuring a static IP address and performing domain jo
 
   ![Screenshot 2024-12-31 233719](https://github.com/user-attachments/assets/c36681dc-3bce-4b92-a29f-477083248d40)
 
+### 6️⃣ Finalizing the Configuration
+
 - I'll click `OK`, then restart the VM
+
+---
+
+### 7️⃣ Verifying the Settings
 
 - After the VM restarts, I'll return to Network Connections and check the Details of the internal adapter to verify that the static IP and subnet mask have been updated.
 
   ![Screenshot 2024-12-31 235042](https://github.com/user-attachments/assets/537c92d1-3cf5-4fef-b20a-c021c1f97cb1)
 
-- Everything looks good
+- ✅ Everything looks good!
   
 </details>
 
