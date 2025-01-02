@@ -536,11 +536,11 @@ This section focuses on configuring a static IP address and performing domain jo
 
 
 
-
+## 🖥️📶 Installing Remote Access Service (RAS) & Network Address Translation (NAT)
+As part of my homelab domain configuration, I will set up Remote Access Service (RAS) to allow client devices to access the internet through the domain. This involved installing RAS, configuring network routing, and ensuring secure connectivity for remote clients.
 
 <details>
-<summary>🖥️📶 Installing Remote Access Service (RAS) & Network Address Translation (NAT)</summary>
-As part of my homelab domain configuration, I will set up Remote Access Service (RAS) to allow client devices to access the internet through the domain. This involved installing RAS, configuring network routing, and ensuring secure connectivity for remote clients.
+<summary>🖥️📶 Installing RAS & NAT</summary>
 
 ### 1️⃣ Installing RAS
 - Open Server Manager, click `Add Roles and Features`
