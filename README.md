@@ -352,6 +352,8 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 ## 👥 Active Directory Account Creation
 
+3️⃣ Account Creation
+
 - Now that I have an `ADMINS` folder. I'll right-click the folder and select `New` then `User`.
 
   ![Screenshot 2025-01-02 105554](https://github.com/user-attachments/assets/9849c68b-4dd9-4bc4-b837-91482ae745f5)
@@ -368,11 +370,13 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
   ![Screenshot 2025-01-02 110310](https://github.com/user-attachments/assets/7ac6ec2a-59af-4486-8f07-992c8236a434)
 
-- 
+- To grant the account admin privileges, I'll right-click on the user and select `Properties`.
 
+  ![Screenshot 2025-01-02 114236](https://github.com/user-attachments/assets/ec2286ca-a535-4d50-9380-6f308cf83aa5)
 
+- In the properties window, I'll click `Member Of`, then click `Add` 
 
-
+  ![Screenshot 2025-01-02 114405](https://github.com/user-attachments/assets/63820fed-eb3f-445d-bf33-c2f5e8c5a24a)![Screenshot 2025-01-02 114417](https://github.com/user-attachments/assets/1ebbcc24-b16d-415c-9da6-80a785e382eb)
 
 
 
@@ -424,6 +428,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 </details>
 
 
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
 
 
