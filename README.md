@@ -517,7 +517,7 @@ This section focuses on configuring a static IP address and performing domain jo
 
 ### 6️⃣ Finalizing the Configuration
 
-- I'll click `OK`, then restart the VM
+- I'll click `OK`, then restart the VM.
 
 ---
 
@@ -543,14 +543,43 @@ As part of my homelab domain configuration, I will set up Remote Access Service 
 <summary>🖥️📶 Installing RAS & NAT</summary>
 
 ### 1️⃣ Installing RAS
-- Open Server Manager, click `Add Roles and Features`
+- Open Server Manager, click `Add Roles and Features`, then click `Next`.
 
   ![Screenshot 2025-01-02 154407](https://github.com/user-attachments/assets/f8bc3fd0-befe-4c44-aad0-f624ffec59b8)
+  ![Screenshot 2025-01-02 154459](https://github.com/user-attachments/assets/42bc5c89-e263-4dd1-a9d3-a55ff96215b2)
 
+- Select `Role-based or feature-based installation`, then click `Next`.
 
+  ![Screenshot 2025-01-02 154514](https://github.com/user-attachments/assets/292675bd-9bd6-4fa5-90b3-8b03d85c55ec)
 
+- Select `Select a server from the server pool`, then click `Next`.
 
+  ![Screenshot 2025-01-02 175613](https://github.com/user-attachments/assets/15658f6d-44d3-4d22-9003-e02dbb9f5e45)
 
+- For roles, check `Remote Access`, then click `Next`.
+
+  ![Screenshot 2025-01-02 154619](https://github.com/user-attachments/assets/b8c017ac-c97d-460f-9779-e496c3b95ab2)
+
+- Leave as is, click `Next`
+
+  ![Screenshot 2025-01-02 154652](https://github.com/user-attachments/assets/1b2b1a07-5047-4ed1-ac74-a399b5afb787)
+  ![Screenshot 2025-01-02 154710](https://github.com/user-attachments/assets/a50e21f3-5f72-4981-8170-b14a7706e7bf)
+
+- Select `Routing`, then click `Add Feature`, `DirectAccess and VPN` will become checked automatically, click `Next`.
+
+  ![Screenshot 2025-01-02 154757](https://github.com/user-attachments/assets/1fd97f61-1dc2-497e-8edf-2f626a745a87)
+
+- Leave as is, click `Next`.
+
+  ![Screenshot 2025-01-02 154817](https://github.com/user-attachments/assets/d947cd35-2582-4118-bfd9-cbabf9468386)
+
+- Leave as is, click `Next`.  
+ 
+  ![Screenshot 2025-01-02 154834](https://github.com/user-attachments/assets/4581ef11-783d-4499-b5d4-ebdfaa5f0731)
+
+- Click `Install`, when the installation is complete, click `Close`
+
+  ![Screenshot 2025-01-02 154850](https://github.com/user-attachments/assets/9ce8f0d5-0660-4b9b-9ab3-21f6d55e5c88)
 
 </details>
 
