@@ -327,15 +327,57 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 ## 👥 Active Directory Account Creation
 
 1️⃣ Access Active Directory Users and Computers
-- On the Server Manager dashboard, click `Tools` and select `Active Directory Users and Computers`
+- On the Server Manager dashboard, click `Tools` and select `Active Directory Users and Computers`.
 
   ![Screenshot 2024-12-31 130031](https://github.com/user-attachments/assets/6b067f12-b5e0-463c-a109-22d47ff88de4)
 
-- I will pin ADUC to my taskbar by right-clicking the icon and selecting `Pin To Taskbar`
+- I will pin ADUC to my taskbar by right-clicking the icon and selecting `Pin To Taskbar`.
 
   ![Screenshot 2024-12-31 130320](https://github.com/user-attachments/assets/d63ddf3c-5f44-4b69-80c9-ac53b42f100f)
 
 ---
+
+## 👥 Create A New Organizational Unit
+
+2️⃣ Create the Admin Organizational Unit
+- I'll right-click `goodcorp.com` go to `New` and select `Organizational Unit`.
+
+  ![Screenshot 2025-01-02 105043](https://github.com/user-attachments/assets/ad381f64-64b1-404f-b226-796f8b68381c)
+
+- I'll name the OU `ADMINS` and uncheck `Protect container from accidental deletion`, then click `OK`.
+
+  ![Screenshot 2025-01-02 105303](https://github.com/user-attachments/assets/faa2f277-2318-4b13-a493-09029c170a12)
+
+- In the left pane, I now have an `ADMINS` folder. I'll right-click the folder and select `New` then `User`.
+
+  ![Screenshot 2025-01-02 105554](https://github.com/user-attachments/assets/9849c68b-4dd9-4bc4-b837-91482ae745f5)
+
+- I'll input my name `Stephen Abner`, set the User logon name to `a-sabner`, then click `Next`.
+
+  ![Screenshot 2025-01-02 105824](https://github.com/user-attachments/assets/5dc1d58f-036c-4da5-95dd-604d5b340f7f)
+
+- On the next screen I'll input a password, uncheck `User must change password at next logon`, and check `Password never expires`, then click `Next` and `Finish`.
+
+  ![Screenshot 2025-01-02 110117](https://github.com/user-attachments/assets/f27dafd7-b0ec-40d0-a0fe-c422d31710b7)
+
+- Now I have my personal account created inside the ADMINS folder, But I still need to give the account admin privileges. 
+
+  ![Screenshot 2025-01-02 110310](https://github.com/user-attachments/assets/7ac6ec2a-59af-4486-8f07-992c8236a434)
+
+- 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 👥 Create The Helpdesk Admin
 
@@ -370,7 +412,8 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 1️⃣ Access Active Directory Users and Computers
 - Open `Active Directory Users and Computers`, expand `goodcorp.com` then select `Users`
 
-  
+  ![Screenshot 2025-01-02 104236](https://github.com/user-attachments/assets/c070f0f4-adeb-41a2-ac35-fafe21d08fd3)
+
 
   
 
