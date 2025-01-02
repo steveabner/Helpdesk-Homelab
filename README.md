@@ -568,6 +568,7 @@ As part of my homelab domain configuration, I will set up Remote Access Service 
 - Select `Routing`, then click `Add Feature`, `DirectAccess and VPN` will become checked automatically, click `Next`.
 
   ![Screenshot 2025-01-02 154757](https://github.com/user-attachments/assets/1fd97f61-1dc2-497e-8edf-2f626a745a87)
+  ![Screenshot 2025-01-02 154738](https://github.com/user-attachments/assets/78c86947-87ec-4d3b-a7b6-bd430e37ccc4)
 
 - Leave as is, click `Next`.
 
