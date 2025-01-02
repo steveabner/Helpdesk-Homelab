@@ -430,11 +430,11 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 - Open `Active Directory Users and Computers`, expand `goodcorp.com` then select `Users`
 
   ![Screenshot 2025-01-02 104236](https://github.com/user-attachments/assets/c070f0f4-adeb-41a2-ac35-fafe21d08fd3)
-
+-->
 
   
 
-</details> -->
+</details>
 
 
 
