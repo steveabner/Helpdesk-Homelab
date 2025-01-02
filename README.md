@@ -376,7 +376,19 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 - In the properties window, I'll click `Member Of`, then click `Add` 
 
-![Screenshot 2025-01-02 114405](https://github.com/user-attachments/assets/c6ad8ed0-2012-4ef2-9a0e-4bf920bcb15d)   ![Screenshot 2025-01-02 114417](https://github.com/user-attachments/assets/da3c82ac-522e-42e1-bd58-5d08e5fc6a51)
+![Screenshot 2025-01-02 114405](https://github.com/user-attachments/assets/c6ad8ed0-2012-4ef2-9a0e-4bf920bcb15d) ![Screenshot 2025-01-02 114417](https://github.com/user-attachments/assets/da3c82ac-522e-42e1-bd58-5d08e5fc6a51)
+
+- In the `Enter the object names to select` section, I'll input `domain admins`, then click `Check Names`
+
+  ![Screenshot 2025-01-02 114942](https://github.com/user-attachments/assets/8dbc6656-3d01-40db-ae77-7324badc9e1e)
+
+- After clicking `Check Names` domain admins will become underlined, click `OK` 
+
+  ![Screenshot 2025-01-02 114959](https://github.com/user-attachments/assets/eb1c2eba-b17b-4742-8b2d-9d5e1d878dae)
+
+- The user has now been added to `Domain Admins`. Click `Apply`, then `OK`.
+
+  ![Screenshot 2025-01-02 115854](https://github.com/user-attachments/assets/8f33d90c-1d84-4ba4-8287-5481a1c49eb6)
 
 
 
@@ -384,12 +396,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 
 
-
-
-
-
-
-## 👥 Create The Helpdesk Admin
+<!--## 👥 Create The Helpdesk Admin
 
 2️⃣ Create A New Admin User
 - In the left pane of the ADUC window, I will expand `goodcorp.com` and select `Users`.
@@ -427,7 +434,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
   
 
-</details>
+</details> -->
 
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
