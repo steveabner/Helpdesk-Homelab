@@ -376,7 +376,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 - In the properties window, I'll click `Member Of`, then click `Add` 
 
-![Screenshot 2025-01-02 114405](https://github.com/user-attachments/assets/c6ad8ed0-2012-4ef2-9a0e-4bf920bcb15d) ![Screenshot 2025-01-02 114417](https://github.com/user-attachments/assets/da3c82ac-522e-42e1-bd58-5d08e5fc6a51)
+![Screenshot 2025-01-02 114405](https://github.com/user-attachments/assets/c6ad8ed0-2012-4ef2-9a0e-4bf920bcb15d)   ![Screenshot 2025-01-02 114417](https://github.com/user-attachments/assets/da3c82ac-522e-42e1-bd58-5d08e5fc6a51)
 
 
 
