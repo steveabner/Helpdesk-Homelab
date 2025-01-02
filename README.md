@@ -362,7 +362,19 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 </details>
 
+<details>
+  <summary>👥 Creating My Personal Admin Account</summary>
 
+## 👥 Active Directory Account Creation
+
+1️⃣ Access Active Directory Users and Computers
+- Open `Active Directory Users and Computers`, expand `goodcorp.com` then select `Users`
+
+  
+
+  
+
+</details>
 
 
 
