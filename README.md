@@ -449,6 +449,11 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 
 
+
+
+
+
+
 ## 🖥️ Configuring a Static IP
 This section focuses on configuring a static IP address and performing domain joining on a Windows Server 2019 instance. The goal is to establish a stable network connection and integrate the server into an Active Directory domain for centralized management
 
@@ -526,6 +531,28 @@ This section focuses on configuring a static IP address and performing domain jo
   
 </details>
 
+
+
+
+
+
+
+
+<details>
+<summary>🖥️📶 Installing Remote Access Service (RAS) & Network Address Translation (NAT)</summary>
+As part of my homelab domain configuration, I will set up Remote Access Service (RAS) to allow client devices to access the internet through the domain. This involved installing RAS, configuring network routing, and ensuring secure connectivity for remote clients.
+
+### 1️⃣ Installing RAS
+- Open Server Manager, click `Add Roles and Features`
+
+  ![Screenshot 2025-01-02 154407](https://github.com/user-attachments/assets/f8bc3fd0-befe-4c44-aad0-f624ffec59b8)
+
+
+
+
+
+
+</details>
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
