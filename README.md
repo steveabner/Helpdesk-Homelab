@@ -322,9 +322,9 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 As part of my Active Directory setup, I will utilize the Active Directory Users and Computers (ADUC) tool to create and manage user accounts. Specifically, I will create a Helpdesk Admin account with elevated privileges for administrative tasks and Helpdesk Support user accounts with restricted access tailored for day-to-day support operations.
 
 <details>
-<summary>👥 Creating a Helpdesk Admin Account</summary>
+<summary>👥 Creating Admin Accounts</summary>
 
-## 👥 Active Directory Account Creation
+## 👥 Active Directory Users and Computers
 
 1️⃣ Access Active Directory Users and Computers
 - On the Server Manager dashboard, click `Tools` and select `Active Directory Users and Computers`.
@@ -348,7 +348,11 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
   ![Screenshot 2025-01-02 105303](https://github.com/user-attachments/assets/faa2f277-2318-4b13-a493-09029c170a12)
 
-- In the left pane, I now have an `ADMINS` folder. I'll right-click the folder and select `New` then `User`.
+---
+
+## 👥 Active Directory Account Creation
+
+- Now that I have an `ADMINS` folder. I'll right-click the folder and select `New` then `User`.
 
   ![Screenshot 2025-01-02 105554](https://github.com/user-attachments/assets/9849c68b-4dd9-4bc4-b837-91482ae745f5)
 
