@@ -366,6 +366,12 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
   ![Screenshot 2025-01-02 110117](https://github.com/user-attachments/assets/f27dafd7-b0ec-40d0-a0fe-c422d31710b7)
 
+---
+
+## 👥 Promote User To Admin
+
+4️⃣ Give User Domain Admin
+
 - Now I have my personal account created inside the ADMINS folder, But I still need to give the account admin privileges. 
 
   ![Screenshot 2025-01-02 110310](https://github.com/user-attachments/assets/7ac6ec2a-59af-4486-8f07-992c8236a434)
@@ -394,7 +400,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 
 
-
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
 <!--## 👥 Create The Helpdesk Admin
 
