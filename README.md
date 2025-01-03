@@ -722,7 +722,7 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 
 - To fix this, I'll right-click the domain, and select `Authorize`. Then right-click again, and select `Refresh`
 
-![Screenshot 2025-01-02 212749](https://github.com/user-attachments/assets/a77738eb-40c7-49a2-8609-8deefd9f29ca) ![Screenshot 2025-01-02 212811](https://github.com/user-attachments/assets/e9160bff-f20f-4265-b186-3757676b5ec9)
+  ![Screenshot 2025-01-02 212749](https://github.com/user-attachments/assets/a77738eb-40c7-49a2-8609-8deefd9f29ca) ![Screenshot 2025-01-02 212811](https://github.com/user-attachments/assets/e9160bff-f20f-4265-b186-3757676b5ec9)
 
 
 
