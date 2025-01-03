@@ -784,6 +784,7 @@ This section outlines the process of setting up an administrative user, joining 
   - Back at `Computer Management`, I'll right-click the user `Nick Burns` click `Delete`, `Yes`, then `OK`
 
     ![Screenshot 2025-01-03 121854](https://github.com/user-attachments/assets/c61ac8c4-442e-45fb-a33f-8f456ee33947)
+    ![Screenshot 2025-01-03 122937](https://github.com/user-attachments/assets/0298aac1-25be-455d-824d-a123e5a16033)
 
 - All jokes aside, the admin user has been successfully configured. Next, I’ll install RSAT tools to enable the admin user to manage Active Directory directly from this Windows 10 machine.
 
@@ -792,17 +793,37 @@ This section outlines the process of setting up an administrative user, joining 
 <details>
   <summary>🖥️ Installing RSAT Tools</summary>
 
+### 🖥️ Install RSAT Tools
 
+- Within the Windows 10 VM, right-click `Start` and go to `System`
 
+  ![Screenshot 2025-01-03 124021](https://github.com/user-attachments/assets/1c732f39-2554-4287-8a48-ea94798e0d57)
 
+- On the left pane, scroll down and click `Optional Features`
 
+  ![Screenshot 2025-01-03 124146](https://github.com/user-attachments/assets/61b225ea-2af3-4d85-8b7a-383f120edbb8)
 
+- Click `Add a feature`
 
+  ![Screenshot 2025-01-03 124251](https://github.com/user-attachments/assets/165732d3-2834-4f92-b088-8e8714ba3a43)
 
+- I will select the following features:
+  - RSAT: Active Directory Certificate Services tools
+  - RSAT: Active Directory Domain Services and Lightweight Directory Services Tools
+  - RSAT: DHCP Server Tools
+  - RSAT: DNS Server Tools
+  - RSAT: Group Policy Management Tools
+  - RSAT: Remote Desktop Services Tools
+  - RSAT: Server Manager
 
+  ![Screenshot 2025-01-03 124531](https://github.com/user-attachments/assets/d4d11e6a-fee9-423b-aa49-30544705453d)
+  ![Screenshot 2025-01-03 124551](https://github.com/user-attachments/assets/22ff1608-9cc7-47c4-9aed-6efa95b78413)
+  ![Screenshot 2025-01-03 124602](https://github.com/user-attachments/assets/9e19f05b-b71c-45bd-a0ad-6bf8db30743a)
 
+- Once selected, I'll click `Add`, then everything will begin installing.
 
-
+  ![Screenshot 2025-01-03 125309](https://github.com/user-attachments/assets/987af641-01af-4718-b638-7398b0e9558b)
+  ![Screenshot 2025-01-03 125333](https://github.com/user-attachments/assets/f9a4f68e-1f07-46d0-94d2-aadd377af6fd)
 
 
 
