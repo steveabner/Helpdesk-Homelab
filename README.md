@@ -888,7 +888,7 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 154205](https://github.com/user-attachments/assets/dc291cbb-cd81-45dd-872b-4f7db03a5899)
 
-- We can now see the goodcorp.com domain and corresponding folders.
+- Now I have access to the goodcorp.com domain and corresponding folders.
 
   ![Screenshot 2025-01-03 154608](https://github.com/user-attachments/assets/9ca1d0b2-9c53-472e-a834-57edb22ea58f)
 
