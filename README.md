@@ -657,7 +657,7 @@ In this section of my homelab project, I will configure Remote Access Service (R
   
 </details>
 
-### 🗂️ DHCP Scope Setup
+## 🗂️ DHCP Scope Setup
 
 <details>
   <summary>DHPC Scope Setup</summary>
