@@ -876,9 +876,11 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 142846](https://github.com/user-attachments/assets/5e205f41-80fb-480f-9141-1c865774b1ec)
 
-- On the Sign In screen, I'll click `Other user`
+- On the Sign In screen, I'll click `Other user`, we can now see the GOODCORP Domain and how to sign in.
 
-- I'll input the `a-sabner` user name and password, then click `Enter`
+  ![Screenshot 2025-01-03 153831](https://github.com/user-attachments/assets/4a9772c8-6cc8-4cc0-9a67-a66c277c0817)
+
+- I'll input the admin account that I created earlier `a-sabner`, enter the password, then click `Enter`
 
   ![Screenshot 2025-01-03 143638](https://github.com/user-attachments/assets/14c5c3fe-6617-403c-beb4-88b26d11915d)
 
