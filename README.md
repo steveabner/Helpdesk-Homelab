@@ -586,9 +586,9 @@ In this section of my homelab project, I will configure Remote Access Service (R
 </details>
 
 <details>
-  <summary> Configuring NAT</summary>
+  <summary>📶 Configuring NAT</summary>
 
-### Configure NAT
+### 📶 Configure NAT
 - Open Server Manager, go to `Tools` and select `Routing and Remote Access`.
 
   ![Screenshot 2025-01-02 155307](https://github.com/user-attachments/assets/02022e44-7a97-4edf-88e8-b8fa0d81aba7)
@@ -620,9 +620,9 @@ In this section of my homelab project, I will configure Remote Access Service (R
 </details>
 
 <details>
-  <summary>Configuring DHCP</summary>
+  <summary>🗂️ Configuring DHCP</summary>
 
-### Installing DHCP features
+### 🗂️ Installing DHCP features
 - Open Server Manager, click `Add roles and features` then click `Next`.
 
   ![Screenshot 2025-01-02 200721](https://github.com/user-attachments/assets/0ce2c226-0884-4880-8857-2ef51f6a1d4a)
@@ -657,7 +657,7 @@ In this section of my homelab project, I will configure Remote Access Service (R
   
 </details>
 
-### DHCP Scope Setup
+### 🗂️ DHCP Scope Setup
 
 <details>
   <summary>DHPC Scope Setup</summary>
