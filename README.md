@@ -653,7 +653,7 @@ In this section of my homelab project, I will configure Remote Access Service (R
   ![Screenshot 2025-01-02 201529](https://github.com/user-attachments/assets/bafc33f3-f505-458a-a366-9e8189774965)
   ![Screenshot 2025-01-02 201605](https://github.com/user-attachments/assets/0eef400e-6e2d-42f8-aaae-9e4b90755638)
 
-- Setup complete!
+- Setup complete! In the next section, I'll set up the DHCP scope.
   
 </details>
 
@@ -661,11 +661,32 @@ In this section of my homelab project, I will configure Remote Access Service (R
 With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. The DHCP scope defines a range of IP addresses that the server can assign to client devices on the network. These IP addresses will be dynamically allocated to devices as they connect to the network.
 
 <details>
-  <summary>DHPC Scope Setup</summary>
-##
+  <summary>🗂️ DHPC Scope Setup</summary>
+  
+### 🗂️ Access DHCP Control Panel
+- I'll Open Server Manager, go to `Tools` and click `DHCP`.
 
+  ![Screenshot 2025-01-02 202021](https://github.com/user-attachments/assets/dbbf90bd-a939-4e09-8607-81b4a4398ab6)
 
+- Within the control panel, I'll expand `goodcorp-dc.goodcorp.com`. Notice that `IPv4` and `IPv6` have a red down arrow.
 
+  ![Screenshot 2025-01-02 204621](https://github.com/user-attachments/assets/99516fe8-a540-40d0-b714-36c1a8c3102e)
+
+- I'll right-click `IPv4`, click `New Scope`, then click `Next`.
+
+  ![Screenshot 2025-01-02 205926](https://github.com/user-attachments/assets/3d622416-a3a0-4802-be4e-fabbf37c16ec)
+
+- I'll name the scope `172.25.0.100-200`, then click `Next`.
+
+  ![Screenshot 2025-01-02 210130](https://github.com/user-attachments/assets/273f132d-ed15-4232-a0f1-805da7e37a38)
+
+- For the range, I'll set
+  - Start IP Address to `172.25.0.100`
+  - End IP Address to `172.25.0.200`
+  - I'll set the length to `24` so the subnet mask is `255.255.255.0`
+- Then click `Next`
+
+  ![Screenshot 2025-01-02 210757](https://github.com/user-attachments/assets/6196be07-625d-43eb-9596-b23918fd7b8a)
 
 
   
