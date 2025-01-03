@@ -586,7 +586,7 @@ In this section of my homelab project, I will configure Remote Access Service (R
 </details>
 
 <details>
-  <summary>📶 Configuring NAT</summary>
+  <summary>📶 Configuring Network Address Translation (NAT)</summary>
 
 ### 📶 Configure NAT
 - Open Server Manager, go to `Tools` and select `Routing and Remote Access`.
@@ -620,7 +620,7 @@ In this section of my homelab project, I will configure Remote Access Service (R
 </details>
 
 <details>
-  <summary>🗂️ Configuring DHCP</summary>
+  <summary>🗂️ Configuring Dynamic Host Configuration Protocol (DHCP)</summary>
 
 ### 🗂️ Installing DHCP features
 - Open Server Manager, click `Add roles and features` then click `Next`.
