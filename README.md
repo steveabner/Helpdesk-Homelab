@@ -838,7 +838,7 @@ This section outlines the process of setting up an administrative user, joining 
 <Details>
   <summary>🖥️ Join PC to the GoodCorp Domain</summary>
 
-### 🖥️ Join PC to Domain
+### 🖥️ Joining a PC to the Domain
 
 - On the Windows 10 VM, I'll open CMD, click `Start` and type `CMD` then press `Enter`.
 
