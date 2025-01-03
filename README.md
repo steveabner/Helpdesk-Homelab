@@ -781,16 +781,32 @@ This section outlines the process of setting up an administrative user, joining 
   ![Screenshot 2025-01-03 121333](https://github.com/user-attachments/assets/43e2e3c4-2f98-476d-94fe-b03cb9320b07)
 
 - I've been informed that Nick Burns has finally been fired, so I'll remove his account.
-  - Back at `Computer Management`, I'll right-click the user `Nick Burns` click `Delete` Then `Yes`
+  - Back at `Computer Management`, I'll right-click the user `Nick Burns` click `Delete`, `Yes`, then `OK`
 
     ![Screenshot 2025-01-03 121854](https://github.com/user-attachments/assets/c61ac8c4-442e-45fb-a33f-8f456ee33947)
 
-- 
+- All jokes aside, the admin user has been successfully configured. Next, I’ll install RSAT tools to enable the admin user to manage Active Directory directly from this Windows 10 machine.
+
+</details>
+
+<details>
+  <summary>🖥️ Installing RSAT Tools</summary>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
 </details>
-
-
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
