@@ -540,9 +540,9 @@ This section focuses on configuring a static IP address and performing domain jo
 As part of my homelab domain configuration, I will set up Remote Access Service (RAS) to allow client devices to access the internet through the domain. This involved installing RAS, configuring network routing, and ensuring secure connectivity for remote clients.
 
 <details>
-<summary>🖥️📶 Installing RAS & NAT</summary>
+<summary>🖥️📶 Installing Remote Access Service (RAS) </summary>
 
-### 1️⃣ Installing RAS
+### Installing RAS
 - Open Server Manager, click `Add Roles and Features`, then click `Next`.
 
   ![Screenshot 2025-01-02 154407](https://github.com/user-attachments/assets/f8bc3fd0-befe-4c44-aad0-f624ffec59b8)
@@ -560,7 +560,7 @@ As part of my homelab domain configuration, I will set up Remote Access Service 
 
   ![Screenshot 2025-01-02 154619](https://github.com/user-attachments/assets/b8c017ac-c97d-460f-9779-e496c3b95ab2)
 
-- Leave as is, click `Next`
+- Leave as is, click `Next`.
 
   ![Screenshot 2025-01-02 154652](https://github.com/user-attachments/assets/1b2b1a07-5047-4ed1-ac74-a399b5afb787)
   ![Screenshot 2025-01-02 154710](https://github.com/user-attachments/assets/a50e21f3-5f72-4981-8170-b14a7706e7bf)
@@ -578,13 +578,52 @@ As part of my homelab domain configuration, I will set up Remote Access Service 
  
   ![Screenshot 2025-01-02 154834](https://github.com/user-attachments/assets/4581ef11-783d-4499-b5d4-ebdfaa5f0731)
 
-- Click `Install`, when the installation is complete, then click `Close`
+- Click `Install`, when the installation is complete, then click `Close`.
 
   ![Screenshot 2025-01-02 154850](https://github.com/user-attachments/assets/9ce8f0d5-0660-4b9b-9ab3-21f6d55e5c88)
   ![Screenshot 2025-01-02 154938](https://github.com/user-attachments/assets/afcf27c3-88d4-4e75-b61c-bb10109566fa)
 
-
 </details>
 
+
+<details>
+  <summary>🖥️📶 Configuring NAT</summary>
+
+### Configure NAT
+- Open Server Manager, go to `Tools` and select `Routing and Remote Access`.
+
+  ![Screenshot 2025-01-02 155307](https://github.com/user-attachments/assets/02022e44-7a97-4edf-88e8-b8fa0d81aba7)
+
+- I'll right-click my domain controller `GOODCORP_DC`, then click `Configure and Enable Routing and Remote Access`.
+
+  ![Screenshot 2025-01-02 155412](https://github.com/user-attachments/assets/d3033524-33b0-4f03-8b55-386b2f4603c3)
+
+- When the install wizard appears, click `Next`.
+
+  ![Screenshot 2025-01-02 155431](https://github.com/user-attachments/assets/9b00e80e-f9f5-4c7f-8679-0d755317ff3a)
+
+- Select `Network address translation`, then click `Next`.
+
+  ![Screenshot 2025-01-02 155500](https://github.com/user-attachments/assets/b763aa99-d2e2-4788-b5fc-70a6458d15b3)
+
+- I'll select `Use this Public Interface to connect to the Internet`, then I'll select the `Internet` adapter that I renamed in the `Configuring A Static IP` section. then click `Next`.
+
+  ![Screenshot 2025-01-02 193404](https://github.com/user-attachments/assets/3bc646b4-8f3f-4a56-9c6c-dc3bf9ad3333)
+
+- Click `Finish` to complete the setup.
+
+  ![Screenshot 2025-01-02 194213](https://github.com/user-attachments/assets/aaa8f8ad-3d0a-4427-bb1f-6625da805dc6)
+
+- Now the `GOODCORP-DC` domain has a green UP arrow and is configured properly.
+
+  ![Screenshot 2025-01-02 194504](https://github.com/user-attachments/assets/7be210e3-4ca9-4ac1-add8-24863cfac367)
+
+
+
+
+
+
+
+</details>
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
