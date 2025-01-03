@@ -6,16 +6,6 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
 ---
 
-<!--## 🖥️ Hardware Used
-For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controller, while my main PC and an older MSI gaming laptop will act as user devices. To preserve the original operating systems on all systems, I will utilize VirtualBox to create virtual machines on each device.-->
-
-<!--<details>
-<summary> Here are a couple of pictures for nerds, like me 😊</summary>
-
-  ![1000001973](https://github.com/user-attachments/assets/f65b355a-97fa-4618-8f96-78643b99318b)
-  ![1000001972](https://github.com/user-attachments/assets/6957e9d5-d26d-48c4-9ef7-ad7b1bc7d492)
-</details>-->
-
 ## 📦 VirtualBox - Server 2019 & Windows 10 Setup
 
 <details>
@@ -103,6 +93,14 @@ For the hardware setup, I am using a Beelink Ser6 Mini PC as the domain controll
 
 </details>
 
+
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
+
+
 ## 📦 VirtualBox - Setting up an Internal Network Adapter
 The Server 2019 VM will have two NICs set up in VirtualBox: one external NIC for internet access and one internal NIC for communication within the domain and with local machines.
 
@@ -130,6 +128,9 @@ The Server 2019 VM will have two NICs set up in VirtualBox: one external NIC for
 </details>
 
 
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
 
 
@@ -171,6 +172,7 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
 
 
 
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
 
 
@@ -315,6 +317,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 
 
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
 
 
@@ -326,7 +329,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 <details>
 <summary>👥 Creating An Admin Account</summary>
 
-## 👥 Active Directory Users and Computers
+## 👥 Create an Admin Account
 
 1️⃣ Access Active Directory Users and Computers
 - On the Server Manager dashboard, click `Tools` and select `Active Directory Users and Computers`.
@@ -399,57 +402,12 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
   ![Screenshot 2025-01-02 115854](https://github.com/user-attachments/assets/8f33d90c-1d84-4ba4-8287-5481a1c49eb6)
 
 
+</details>
+
 
 
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-<!--## 👥 Create The Helpdesk Admin
-
-2️⃣ Create A New Admin User
-- In the left pane of the ADUC window, I will expand `goodcorp.com` and select `Users`.
-
-  ![Screenshot 2024-12-31 133217](https://github.com/user-attachments/assets/3b05a51d-5795-4c76-ab0d-69e14870aa47)
-
-- Since we already have an admin account, I'll just right-click `Administrator` and click `Copy`. (Copying makes life easier)
-
-  ![Screenshot 2024-12-31 133617](https://github.com/user-attachments/assets/535df790-7557-43c4-ba2b-fc386e17a4f2)
-
-- A `Copy Object - User` window will appear, I'll set the First name to `Helpdesk` and the User logon name to `Helpdesk` then click `Next`
-
-  ![Screenshot 2024-12-31 134330](https://github.com/user-attachments/assets/4590eb2f-2c9c-46ca-b467-f6eb1441f760)
-
-- Input a password, and make sure `Password never expires` is checked, then click `Next`, and `Finish`
-
-  ![Screenshot 2024-12-31 134731](https://github.com/user-attachments/assets/374df034-fff4-4ced-adb0-76ac60d982cc)
-
-- I now have an administrative user named Helpdesk.
-
-  ![Screenshot 2024-12-31 134840](https://github.com/user-attachments/assets/3d25a144-6469-4d9a-af28-c0d01cd87508)
-
-</details>
-
-<details>
-  <summary>👥 Creating My Personal Admin Account</summary>
-
-## 👥 Active Directory Account Creation
-
-1️⃣ Access Active Directory Users and Computers
-- Open `Active Directory Users and Computers`, expand `goodcorp.com` then select `Users`
-
-  ![Screenshot 2025-01-02 104236](https://github.com/user-attachments/assets/c070f0f4-adeb-41a2-ac35-fafe21d08fd3)
--->
-
-  
-
-</details>
-
-
-
-
-
-
-
 
 
 
@@ -534,6 +492,9 @@ This section focuses on configuring a static IP address and performing domain jo
 
 
 
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
 
 
 ## 🖥️📶🗂️ RAS, NAT, and DHCP Configuration
@@ -585,6 +546,14 @@ In this section of my homelab project, I will configure Remote Access Service (R
 
 </details>
 
+
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
+
+
 <details>
   <summary>📶 Configuring Network Address Translation (NAT)</summary>
 
@@ -618,6 +587,14 @@ In this section of my homelab project, I will configure Remote Access Service (R
   ![Screenshot 2025-01-02 194504](https://github.com/user-attachments/assets/7be210e3-4ca9-4ac1-add8-24863cfac367)
 
 </details>
+
+
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
+
 
 <details>
   <summary>🗂️ Configuring Dynamic Host Configuration Protocol (DHCP)</summary>
@@ -656,6 +633,14 @@ In this section of my homelab project, I will configure Remote Access Service (R
 - Setup complete! In the next section, I'll set up the DHCP scope.
   
 </details>
+
+
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
+
 
 ## 🗂️ DHCP Scope Setup
 With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. The DHCP scope defines a range of IP addresses that the server can assign to client devices on the network. These IP addresses will be dynamically allocated to devices as they connect to the network.
@@ -729,6 +714,14 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 ![Screenshot 2025-01-02 212839](https://github.com/user-attachments/assets/1802ad18-589d-44a5-8f8a-5eb99dfc7d20)
 
 </details>
+
+
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
+
  
 ## 👥 Configure Admin User, Install RSAT Tools, and Join PC to GoodCorp Domain
 This section outlines the process of setting up an administrative user, joining a client PC to a domain, and installing Remote Server Administration Tools (RSAT) to manage Active Directory components.
@@ -789,6 +782,14 @@ This section outlines the process of setting up an administrative user, joining 
 - All jokes aside, the admin user has been successfully configured. Next, I’ll install RSAT tools to enable the admin user to manage Active Directory directly from this Windows 10 machine.
 
 </details>
+
+
+
+
+<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
+
+
+
 
 <details>
   <summary>🖥️ Installing RSAT Tools</summary>
@@ -895,12 +896,42 @@ This section outlines the process of setting up an administrative user, joining 
 </Details>
 
 <Details>
-  <summary>🖥️ Joining Support User PC to the GoodCorp Domain</summary>
+  <summary>🖥️ Create and Join a User PC to the GoodCorp Domain</summary>
+
+### 🖥️ Create a New User
+
+- On the `a-sabner` admin machine, I'll click `Start`, scroll down to `Windows Administrative Tools` then click `Active Directory Users and Computers`. Also, I'll go ahead and pin it to the taskbar.
+
+  ![Screenshot 2025-01-03 154205](https://github.com/user-attachments/assets/3438dd8e-f125-439e-9adf-d3cac90c8892)
+
+- I'll Expand the goodcorp.com domain, right-click the `Users` folder, go to `New` and click `User`.
+
+  ![Screenshot 2025-01-03 173616](https://github.com/user-attachments/assets/63bb7327-c7f3-4427-8db7-d13aac005464)
+
+- I'll name the user `John Smith` and set the User logon name to `jsmith`, then click `Next`.
+
+  ![Screenshot 2025-01-03 174207](https://github.com/user-attachments/assets/f662eaac-8ebc-4024-9991-68edcbdf46d3)
+
+- I'll set a password and uncheck `User Must change password at next logon`, then click `Next` and `Finish`.
+
+  ![Screenshot 2025-01-03 174500](https://github.com/user-attachments/assets/4c2c3d17-1553-43ba-937d-8918d2c2ac10)
+
+- John Smith has now been added to users.
+
+  ![Screenshot 2025-01-03 174546](https://github.com/user-attachments/assets/19afe53b-27fe-4dc3-99a7-1d28c2109531)
+
+
+
+
+
 
 
 
 
 
 </Details>
+
+
+
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
