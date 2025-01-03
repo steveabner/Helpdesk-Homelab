@@ -585,9 +585,8 @@ In this section of my homelab project, I will configure Remote Access Service (R
 
 </details>
 
-
 <details>
-  <summary>🖥️📶 Configuring NAT</summary>
+  <summary> Configuring NAT</summary>
 
 ### Configure NAT
 - Open Server Manager, go to `Tools` and select `Routing and Remote Access`.
@@ -618,12 +617,62 @@ In this section of my homelab project, I will configure Remote Access Service (R
 
   ![Screenshot 2025-01-02 194504](https://github.com/user-attachments/assets/7be210e3-4ca9-4ac1-add8-24863cfac367)
 
-
-
-
-
-
-
 </details>
+
+<details>
+  <summary>Configuring DHCP</summary>
+
+### Installing DHCP features
+- Open Server Manager, click `Add roles and features` then click `Next`.
+
+  ![Screenshot 2025-01-02 200721](https://github.com/user-attachments/assets/0ce2c226-0884-4880-8857-2ef51f6a1d4a)
+
+- Select `Role-based or feature-based installation`, then click `Next`.
+
+  ![Screenshot 2025-01-02 200844](https://github.com/user-attachments/assets/bf4d9a7d-67f4-44b5-89c2-0092ff365c52)
+
+- Click `Select a server from the server pool`, then click `Next`.
+
+  ![Screenshot 2025-01-02 201003](https://github.com/user-attachments/assets/77e037f8-a8a9-488b-993e-5e118279e280)
+
+- For roles, select `DHCP Server` then click `Add Features`, then click `Next`.
+
+  ![Screenshot 2025-01-02 201135](https://github.com/user-attachments/assets/71bb4d4c-93b5-42e9-a811-5a73bf196835)
+  ![Screenshot 2025-01-02 201146](https://github.com/user-attachments/assets/e950e4c2-e552-419c-a403-bb87fbdb3ccd)
+
+- Leave features as is, click `Next`
+
+  ![Screenshot 2025-01-02 201347](https://github.com/user-attachments/assets/735841a3-2bad-45f4-8687-0353dab4aad7)
+
+- Click `Next`
+
+  ![Screenshot 2025-01-02 201430](https://github.com/user-attachments/assets/ddab1078-6afc-4b43-8316-eeb659ae166e)
+
+- And finally, I'll click `Install` and wait for the installation to complete, then click `Close`
+
+  ![Screenshot 2025-01-02 201529](https://github.com/user-attachments/assets/bafc33f3-f505-458a-a366-9e8189774965)
+  ![Screenshot 2025-01-02 201605](https://github.com/user-attachments/assets/0eef400e-6e2d-42f8-aaae-9e4b90755638)
+
+- Setup complete!
+  
+</details>
+
+### DHCP Scope Setup
+
+<details>
+  <summary>DHPC Scope Setup</summary>
+##
+
+
+
+
+
+  
+</details>
+
+
+
+
+
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
