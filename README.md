@@ -712,7 +712,7 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 
   ![Screenshot 2025-01-02 212409](https://github.com/user-attachments/assets/6dc37d9f-ece2-4570-93c4-a077d55563eb)
 
-- I'll make sure `Yes, I want to activate this scope now` is selected, click `Next`, and `Finish`
+- I'll make sure `Yes, I want to activate this scope now` is selected, click `Next`, and `Finish`.
 
   ![Screenshot 2025-01-02 212434](https://github.com/user-attachments/assets/33b4d60c-3dc2-44b9-a621-92139c1d3b36)
 
@@ -720,7 +720,7 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 
   ![Screenshot 2025-01-02 212704](https://github.com/user-attachments/assets/8aff448b-322f-45fd-97ae-e43f160d1553)
 
-- To fix this, I'll right-click the domain, and select `Authorize`. Then right-click again, and select `Refresh`
+- To fix this, I'll right-click the domain, and select `Authorize`. Then right-click again, and select `Refresh`.
 
   ![Screenshot 2025-01-02 212749](https://github.com/user-attachments/assets/a77738eb-40c7-49a2-8609-8deefd9f29ca) ![Screenshot 2025-01-02 212811](https://github.com/user-attachments/assets/e9160bff-f20f-4265-b186-3757676b5ec9)
 
@@ -731,14 +731,61 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 </details>
  
 ## 👥 Configure Admin User, Join PC to Domain and RSAT Tools
+This section outlines the process of setting up an administrative user, joining a client PC to a domain, and installing Remote Server Administration Tools (RSAT) to manage Active Directory components.
 
 <details>
-  <summary>👥 Configure The Admin User</summary>
+  <summary>👥 Configure the Admin User</summary>
 
-### 🖥️ Log into the Windows 10 VM
+### 🖥️ Enable the Admin Account
 
+- I'll open Virtualbox and start the Windows 10 VM.
 
+- Open File Explorer, right-click `This PC` then click `Manage`.
 
+  ![Screenshot 2025-01-03 113518](https://github.com/user-attachments/assets/f76ecbda-01c3-487c-9694-e6a469964828)
+
+- Within Computer Management, I'll expand `Local Users and Groups` and select `Users`.
+
+  ![Screenshot 2025-01-03 113601](https://github.com/user-attachments/assets/05721956-3564-452d-87ec-806ca529cce7)
+
+- I'll right-click `Administrator` and select `Properties`.
+
+  ![Screenshot 2025-01-03 113624](https://github.com/user-attachments/assets/fc68a576-5aa4-4d56-97fa-a620b719ca5f)
+
+- Uncheck `Account is disabled` then click `Apply` and `OK`.
+
+  ![Screenshot 2025-01-03 113657](https://github.com/user-attachments/assets/64f0347d-a792-40f4-981b-269d06bda450)
+
+- Right-click `Administrator`, then click `Set Password`
+
+  ![Screenshot 2025-01-03 113735](https://github.com/user-attachments/assets/060170f9-c513-4069-8802-a92c9fd71886)
+
+- click `Proceed`
+
+  ![Screenshot 2025-01-03 113746](https://github.com/user-attachments/assets/2c5561b6-6cf5-4ab0-9da8-ee2a1387e183)
+
+- I'll set a password, then click `OK`
+
+  ![Screenshot 2025-01-03 113816](https://github.com/user-attachments/assets/c9a2bbf8-924e-423d-81f4-d2c494947dc2)
+
+- Right-click the start button, then sign out of the VM
+
+  ![Screenshot 2025-01-03 120734](https://github.com/user-attachments/assets/0a64b373-f268-4560-8afa-9266f1f05344)
+
+- At the sign-in screen, click `Administrator` input the password, then log in.
+
+  ![Screenshot 2025-01-03 120912](https://github.com/user-attachments/assets/408b7362-6254-4a0d-812e-769de928b02a)
+
+- I'll uncheck everything, then click `Accept`
+
+  ![Screenshot 2025-01-03 121333](https://github.com/user-attachments/assets/43e2e3c4-2f98-476d-94fe-b03cb9320b07)
+
+- I've been informed that Nick Burns has finally been fired, so I'll remove his account.
+  - Back at `Computer Management`, I'll right-click the user `Nick Burns` click `Delete` Then `Yes`
+
+    ![Screenshot 2025-01-03 121854](https://github.com/user-attachments/assets/c61ac8c4-442e-45fb-a33f-8f456ee33947)
+
+- 
 
 
   
