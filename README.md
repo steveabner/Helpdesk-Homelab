@@ -825,8 +825,13 @@ This section outlines the process of setting up an administrative user, joining 
   ![Screenshot 2025-01-03 125309](https://github.com/user-attachments/assets/987af641-01af-4718-b638-7398b0e9558b)
   ![Screenshot 2025-01-03 125333](https://github.com/user-attachments/assets/f9a4f68e-1f07-46d0-94d2-aadd377af6fd)
 
+- When the installation is complete, I'll restart the VM.
+  
+- Now I can see all the tools by clicking `Start` and going to `Windows Administrative Tools`
 
+  ![Screenshot 2025-01-03 131424](https://github.com/user-attachments/assets/c2a3d2f4-8788-4312-96c1-9305016ade69)
 
+- RSAT Tools is now installed! In the next section, I'll join the computer to the GoodCorp Domain.
   
 </details>
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
