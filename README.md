@@ -834,5 +834,58 @@ This section outlines the process of setting up an administrative user, joining 
 - RSAT Tools is now installed! In the next section, I'll join the computer to the GoodCorp Domain.
   
 </details>
+
+<Details>
+  <summary>🖥️ Join PC to the GoodCorp Domain</summary>
+
+### 🖥️ Join PC to Domain
+
+- On the Windows 10 VM, I'll open CMD, click `Start` and type `CMD` then press `Enter`
+
+  ![Screenshot 2025-01-03 134008](https://github.com/user-attachments/assets/b648085d-32fe-40c3-8540-fa8bcb6cdf0b)
+
+- Within CMD, I'll type `ipconfig`. The DC has given this PC the IP `172.25.0.100`. And the Gateway is the DC IP Address `172.25.0.1`
+
+  ![Screenshot 2025-01-03 134113](https://github.com/user-attachments/assets/c971bc0d-0f4a-417b-8683-18a556327ceb)
+
+- Now I'll add the pc to the domain. Right-click `Start` and click `System`
+  
+  ![Screenshot 2025-01-03 141901](https://github.com/user-attachments/assets/37259482-38b4-43c4-a444-06864ed3a66c)
+
+- On the System window, I'll scroll down and click `Rename this PC (advanced)`
+
+  ![Screenshot 2025-01-03 141942](https://github.com/user-attachments/assets/2368bded-0751-4413-a186-2b570df445b5)
+
+- Within System Properties, I'll click `Change`
+
+  ![Screenshot 2025-01-03 142227](https://github.com/user-attachments/assets/68d42e32-4637-454b-870d-7e74a3954166)
+
+- I'll change the Computer name to `SABNER`, then I'll select `Domain` then input `goodcorp.com` and click `OK`
+
+  ![Screenshot 2025-01-03 142505](https://github.com/user-attachments/assets/bfeb7a50-03b8-4329-aa01-68c29e9d59be)
+
+- A login window will appear, I'll input the user name `a-sabner` and password of the admin account that I created earlier, then click `OK`
+
+  ![Screenshot 2025-01-03 142737](https://github.com/user-attachments/assets/0512a4ed-8b99-43be-b1b9-6f0b4d47e422)
+
+- I'll get a welcome screen, click `OK`
+
+  ![Screenshot 2025-01-03 142834](https://github.com/user-attachments/assets/3a50e673-3656-481e-b475-e63ea94bf50d)
+
+- Then I'll get a prompt to restart the machine, click `OK`, then restart the VM.
+
+  ![Screenshot 2025-01-03 142846](https://github.com/user-attachments/assets/5e205f41-80fb-480f-9141-1c865774b1ec)
+
+- On the Sign In screen, I'll click `Other user`
+
+- I'll input the `a-sabner` user name and password, then click `Enter`
+
+
+
+
+
+
+
+</Details>
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
