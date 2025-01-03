@@ -661,7 +661,7 @@ In this section of my homelab project, I will configure Remote Access Service (R
 With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. The DHCP scope defines a range of IP addresses that the server can assign to client devices on the network. These IP addresses will be dynamically allocated to devices as they connect to the network.
 
 <details>
-  <summary>🗂️ DHPC Scope Setup</summary>
+  <summary>🗂️ DHCP Scope Setup</summary>
   
 ### 🗂️ Access DHCP Control Panel
 - I'll Open Server Manager, go to `Tools` and click `DHCP`.
