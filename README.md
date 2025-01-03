@@ -536,11 +536,11 @@ This section focuses on configuring a static IP address and performing domain jo
 
 
 
-## 🖥️📶 RAS, NAT, and DHCP Configuration
+## 🖥️📶🗂️ RAS, NAT, and DHCP Configuration
 In this section of my homelab project, I will configure Remote Access Service (RAS), Network Address Translation (NAT), and DHCP to provide client devices with internet access through the domain. This setup includes enabling RAS for remote connectivity, configuring NAT for IP address translation, and setting up DHCP to dynamically assign IP addresses to client devices.
 
 <details>
-<summary>🖥️📶 Installing Remote Access Service (RAS) </summary>
+<summary>🖥️ Installing Remote Access Service (RAS) </summary>
 
 ### Installing RAS
 - Open Server Manager, click `Add Roles and Features`, then click `Next`.
