@@ -688,8 +688,48 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 
   ![Screenshot 2025-01-02 210757](https://github.com/user-attachments/assets/6196be07-625d-43eb-9596-b23918fd7b8a)
 
+- I don't need exclusions, so I'll click `Next`.
 
-  
+  ![Screenshot 2025-01-02 211036](https://github.com/user-attachments/assets/18398b92-7b58-4bb0-bf4a-994f8a371774)
+
+- I'll leave the lease duration at `8 Days`, then click `Next`.
+
+  ![Screenshot 2025-01-02 211201](https://github.com/user-attachments/assets/30b98662-57b7-4833-98cd-0c0b59c0021c)
+
+- On the next window, I'll select `Yes, I want to configure these options now` then click `Next`.
+
+  ![Screenshot 2025-01-02 211322](https://github.com/user-attachments/assets/0084d5e1-6f3b-4dd6-9f2b-229bfb0a471e)
+
+- Since the clients will use the Domain Controller's Internal NIC as the default gateway, I will input the Domain Controller's IP address, click `Add` then click `Next`.
+
+![Screenshot 2025-01-02 211910](https://github.com/user-attachments/assets/1d07b5c3-7791-4489-b3ab-4ba8020fa343)
+
+- The goodcorp.com domain and DNS is already there, so I'll click `Next`.
+
+  ![Screenshot 2025-01-02 212320](https://github.com/user-attachments/assets/335ffaac-cd80-4db6-9bad-ca907b632eb0)
+
+- I'll skip WINS Servers, and click `Next`.
+
+  ![Screenshot 2025-01-02 212409](https://github.com/user-attachments/assets/6dc37d9f-ece2-4570-93c4-a077d55563eb)
+
+- I'll make sure `Yes, I want to activate this scope now` is selected, click `Next`, and `Finish`
+
+  ![Screenshot 2025-01-02 212434](https://github.com/user-attachments/assets/33b4d60c-3dc2-44b9-a621-92139c1d3b36)
+
+- I noticed IPv4 and IPv6 still had a red down arrow
+
+  ![Screenshot 2025-01-02 212704](https://github.com/user-attachments/assets/8aff448b-322f-45fd-97ae-e43f160d1553)
+
+- To fix this, I'll right-click the domain, and select `Authorize`. Then right-click again, and select `Refresh`
+
+![Screenshot 2025-01-02 212749](https://github.com/user-attachments/assets/a77738eb-40c7-49a2-8609-8deefd9f29ca) ![Screenshot 2025-01-02 212811](https://github.com/user-attachments/assets/e9160bff-f20f-4265-b186-3757676b5ec9)
+
+
+
+
+
+
+
 </details>
 
 
