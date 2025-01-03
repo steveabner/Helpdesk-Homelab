@@ -730,12 +730,12 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 
 </details>
  
-## Configure Admin User, Join PC to Domain and RSAT Tools
+## 👥 Configure Admin User, Join PC to Domain and RSAT Tools
 
 <details>
-  <summary>Configure The Admin User</summary>
+  <summary>👥 Configure The Admin User</summary>
 
-### Log into the Windows 10 VM
+### 🖥️ Log into the Windows 10 VM
 
 
 
