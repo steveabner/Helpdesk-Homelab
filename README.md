@@ -836,7 +836,7 @@ This section outlines the process of setting up an administrative user, joining 
 </details>
 
 <Details>
-  <summary>🖥️ Join PC to the GoodCorp Domain</summary>
+  <summary>🖥️ Joining Admin PC to the GoodCorp Domain</summary>
 
 ### 🖥️ Joining Admin PC to the Domain
 
@@ -891,6 +891,15 @@ This section outlines the process of setting up an administrative user, joining 
 - Now I have access to the goodcorp.com domain and corresponding folders.
 
   ![Screenshot 2025-01-03 154608](https://github.com/user-attachments/assets/9ca1d0b2-9c53-472e-a834-57edb22ea58f)
+
+</Details>
+
+<Details>
+  <summary>🖥️ Joining Support User PC to the GoodCorp Domain</summary>
+
+
+
+
 
 </Details>
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
