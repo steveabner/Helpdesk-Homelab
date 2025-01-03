@@ -756,19 +756,19 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 113657](https://github.com/user-attachments/assets/64f0347d-a792-40f4-981b-269d06bda450)
 
-- Right-click `Administrator`, then click `Set Password`
+- Right-click `Administrator`, then click `Set Password`.
 
   ![Screenshot 2025-01-03 113735](https://github.com/user-attachments/assets/060170f9-c513-4069-8802-a92c9fd71886)
 
-- click `Proceed`
+- click `Proceed`.
 
   ![Screenshot 2025-01-03 113746](https://github.com/user-attachments/assets/2c5561b6-6cf5-4ab0-9da8-ee2a1387e183)
 
-- I'll set a password, then click `OK`
+- I'll set a password, then click `OK`.
 
   ![Screenshot 2025-01-03 113816](https://github.com/user-attachments/assets/c9a2bbf8-924e-423d-81f4-d2c494947dc2)
 
-- Right-click the start button, then sign out of the VM
+- Right-click the start button, then sign out of the VM.
 
   ![Screenshot 2025-01-03 120734](https://github.com/user-attachments/assets/0a64b373-f268-4560-8afa-9266f1f05344)
 
@@ -776,12 +776,12 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 120912](https://github.com/user-attachments/assets/408b7362-6254-4a0d-812e-769de928b02a)
 
-- I'll uncheck everything, then click `Accept`
+- I'll uncheck everything, then click `Accept`.
 
   ![Screenshot 2025-01-03 121333](https://github.com/user-attachments/assets/43e2e3c4-2f98-476d-94fe-b03cb9320b07)
 
 - I've been informed that Nick Burns has finally been fired, so I'll remove his account.
-  - Back at `Computer Management`, I'll right-click the user `Nick Burns` click `Delete`, `Yes`, then `OK`
+  - Back at `Computer Management`, I'll right-click the user `Nick Burns` click `Delete`, `Yes`, then `OK`.
 
     ![Screenshot 2025-01-03 121854](https://github.com/user-attachments/assets/c61ac8c4-442e-45fb-a33f-8f456ee33947)
     ![Screenshot 2025-01-03 122937](https://github.com/user-attachments/assets/0298aac1-25be-455d-824d-a123e5a16033)
@@ -795,15 +795,15 @@ This section outlines the process of setting up an administrative user, joining 
 
 ### 🖥️ Install RSAT Tools
 
-- Within the Windows 10 VM, right-click `Start` and go to `System`
+- Within the Windows 10 VM, right-click `Start` and go to `System`.
 
   ![Screenshot 2025-01-03 124021](https://github.com/user-attachments/assets/1c732f39-2554-4287-8a48-ea94798e0d57)
 
-- On the left pane, scroll down and click `Optional Features`
+- On the left pane, scroll down and click `Optional Features`.
 
   ![Screenshot 2025-01-03 124146](https://github.com/user-attachments/assets/61b225ea-2af3-4d85-8b7a-383f120edbb8)
 
-- Click `Add a feature`
+- Click `Add a feature`.
 
   ![Screenshot 2025-01-03 124251](https://github.com/user-attachments/assets/165732d3-2834-4f92-b088-8e8714ba3a43)
 
@@ -827,7 +827,7 @@ This section outlines the process of setting up an administrative user, joining 
 
 - When the installation is complete, I'll restart the VM.
   
-- Now I can see all the tools by clicking `Start` and going to `Windows Administrative Tools`
+- Now I can see all the tools by clicking `Start` and going to `Windows Administrative Tools`.
 
   ![Screenshot 2025-01-03 131424](https://github.com/user-attachments/assets/c2a3d2f4-8788-4312-96c1-9305016ade69)
 
@@ -840,35 +840,35 @@ This section outlines the process of setting up an administrative user, joining 
 
 ### 🖥️ Join PC to Domain
 
-- On the Windows 10 VM, I'll open CMD, click `Start` and type `CMD` then press `Enter`
+- On the Windows 10 VM, I'll open CMD, click `Start` and type `CMD` then press `Enter`.
 
   ![Screenshot 2025-01-03 134008](https://github.com/user-attachments/assets/b648085d-32fe-40c3-8540-fa8bcb6cdf0b)
 
-- Within CMD, I'll type `ipconfig`. The DC has given this PC the IP `172.25.0.100`. And the Gateway is the DC IP Address `172.25.0.1`
+- Within CMD, I'll type `ipconfig`. The DC has given this PC the IP `172.25.0.100`. And the Gateway is the DC IP Address `172.25.0.1`.
 
   ![Screenshot 2025-01-03 134113](https://github.com/user-attachments/assets/c971bc0d-0f4a-417b-8683-18a556327ceb)
 
-- Now I'll add the pc to the domain. Right-click `Start` and click `System`
+- Now I'll add the pc to the domain. Right-click `Start` and click `System`.
   
   ![Screenshot 2025-01-03 141901](https://github.com/user-attachments/assets/37259482-38b4-43c4-a444-06864ed3a66c)
 
-- On the System window, I'll scroll down and click `Rename this PC (advanced)`
+- On the System window, I'll scroll down and click `Rename this PC (advanced)`.
 
   ![Screenshot 2025-01-03 141942](https://github.com/user-attachments/assets/2368bded-0751-4413-a186-2b570df445b5)
 
-- Within System Properties, I'll click `Change`
+- Within System Properties, I'll click `Change`.
 
   ![Screenshot 2025-01-03 142227](https://github.com/user-attachments/assets/68d42e32-4637-454b-870d-7e74a3954166)
 
-- I'll change the Computer name to `SABNER`, then I'll select `Domain` then input `goodcorp.com` and click `OK`
+- I'll change the Computer name to `SABNER`, then I'll select `Domain` then input `goodcorp.com` and click `OK`.
 
   ![Screenshot 2025-01-03 142505](https://github.com/user-attachments/assets/bfeb7a50-03b8-4329-aa01-68c29e9d59be)
 
-- A login window will appear, I'll input the user name `a-sabner` and password of the admin account that I created earlier, then click `OK`
+- A login window will appear, I'll input the user name `a-sabner` and password of the admin account that I created earlier, then click `OK`.
 
   ![Screenshot 2025-01-03 142737](https://github.com/user-attachments/assets/0512a4ed-8b99-43be-b1b9-6f0b4d47e422)
 
-- I'll get a welcome screen, click `OK`
+- I'll get a welcome screen, click `OK`.
 
   ![Screenshot 2025-01-03 142834](https://github.com/user-attachments/assets/3a50e673-3656-481e-b475-e63ea94bf50d)
 
@@ -880,14 +880,17 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 153831](https://github.com/user-attachments/assets/4a9772c8-6cc8-4cc0-9a67-a66c277c0817)
 
-- I'll input the admin account that I created earlier `a-sabner`, enter the password, then click `Enter`
+- I'll input the admin account that I created earlier `a-sabner`, enter the password, then click `Enter`.
 
   ![Screenshot 2025-01-03 143638](https://github.com/user-attachments/assets/14c5c3fe-6617-403c-beb4-88b26d11915d)
 
+- When logged in, I'll click `Start` Scroll down to `Windows Administrative Tools` and open `Active Directory Users and Computers`.
 
+  ![Screenshot 2025-01-03 154205](https://github.com/user-attachments/assets/dc291cbb-cd81-45dd-872b-4f7db03a5899)
 
+- We can now see the goodcorp.com domain and corresponding folders.
 
-
+  ![Screenshot 2025-01-03 154608](https://github.com/user-attachments/assets/9ca1d0b2-9c53-472e-a834-57edb22ea58f)
 
 </Details>
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
