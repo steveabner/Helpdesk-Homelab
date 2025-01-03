@@ -724,11 +724,9 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 
   ![Screenshot 2025-01-02 212749](https://github.com/user-attachments/assets/a77738eb-40c7-49a2-8609-8deefd9f29ca) ![Screenshot 2025-01-02 212811](https://github.com/user-attachments/assets/e9160bff-f20f-4265-b186-3757676b5ec9)
 
+- IPv4 and IPv6 now have green arrows, and the DHCP scope is set up properly! 
 
-
-
-
-
+![Screenshot 2025-01-02 212839](https://github.com/user-attachments/assets/1802ad18-589d-44a5-8f8a-5eb99dfc7d20)
 
 </details>
 
