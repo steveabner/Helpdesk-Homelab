@@ -880,6 +880,7 @@ This section outlines the process of setting up an administrative user, joining 
 
 - I'll input the `a-sabner` user name and password, then click `Enter`
 
+  ![Screenshot 2025-01-03 143638](https://github.com/user-attachments/assets/14c5c3fe-6617-403c-beb4-88b26d11915d)
 
 
 
