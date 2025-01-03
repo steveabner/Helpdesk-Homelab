@@ -578,9 +578,11 @@ As part of my homelab domain configuration, I will set up Remote Access Service 
  
   ![Screenshot 2025-01-02 154834](https://github.com/user-attachments/assets/4581ef11-783d-4499-b5d4-ebdfaa5f0731)
 
-- Click `Install`, when the installation is complete, click `Close`
+- Click `Install`, when the installation is complete, then click `Close`
 
   ![Screenshot 2025-01-02 154850](https://github.com/user-attachments/assets/9ce8f0d5-0660-4b9b-9ab3-21f6d55e5c88)
+  ![Screenshot 2025-01-02 154938](https://github.com/user-attachments/assets/afcf27c3-88d4-4e75-b61c-bb10109566fa)
+
 
 </details>
 
