@@ -940,7 +940,7 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 193910](https://github.com/user-attachments/assets/8dcf8a75-abcf-4afb-a654-685fb851da32)
 
-- I'll input the username `jsmith`, enter the password, then click `enter`.
+- I'll input the username `jsmith`, enter the password, then click `OK`.
 
   ![Screenshot 2025-01-03 205253](https://github.com/user-attachments/assets/1d58178c-ed1f-4ae9-afb2-eaed3ded087e)
 
