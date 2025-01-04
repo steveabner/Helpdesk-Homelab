@@ -920,6 +920,24 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 174546](https://github.com/user-attachments/assets/19afe53b-27fe-4dc3-99a7-1d28c2109531)
 
+### 🖥️ Join the User PC to the Domain
+
+- I set up a new Windows 10 VM in VirtualBox for the user named John Smith. Next, I'll launch VirtualBox and start the VM.
+
+- On John SMith's machine, I'll right-click `Start` and click `System`
+
+  ![Screenshot 2025-01-03 191946](https://github.com/user-attachments/assets/92bd1253-d5c1-4026-97e9-deae399779cc)
+
+- On the System settings window, I'll click `Rename this PC (advanced)`
+
+  ![Screenshot 2025-01-03 192139](https://github.com/user-attachments/assets/c412c3e1-62e9-4e9c-b5bf-3b6c28f49ae3)
+
+- On the System Properties window, click `Change`
+
+  ![Screenshot 2025-01-03 192315](https://github.com/user-attachments/assets/4a071a5b-fb56-4b07-80a8-92799093f73f)
+
+- 
+
 
 
 
