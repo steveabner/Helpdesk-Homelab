@@ -896,7 +896,7 @@ This section outlines the process of setting up an administrative user, joining 
 </Details>
 
 <Details>
-  <summary>🖥️ Create and Join a User PC to the GoodCorp Domain</summary>
+  <summary>🖥️ Create and Join a User PCs to the GoodCorp Domain</summary>
 
 ### 🖥️ Create a New User
 
