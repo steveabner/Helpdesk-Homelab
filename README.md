@@ -936,16 +936,27 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 192315](https://github.com/user-attachments/assets/4a071a5b-fb56-4b07-80a8-92799093f73f)
 
-- 
+- I'll set the computer name to `jsmith`, click `domain` then input `goodcorp.com`, then click `OK`.
 
+  ![Screenshot 2025-01-03 193910](https://github.com/user-attachments/assets/8dcf8a75-abcf-4afb-a654-685fb851da32)
 
+- I'll change the Computer name to `jsmith`, then I'll select `Domain` then input `goodcorp.com` and click `OK`.
 
+  ![Screenshot 2025-01-03 205253](https://github.com/user-attachments/assets/1d58178c-ed1f-4ae9-afb2-eaed3ded087e)
 
+- I'll get a welcome screen, click `OK`.
 
+  ![Screenshot 2025-01-03 142834](https://github.com/user-attachments/assets/3a50e673-3656-481e-b475-e63ea94bf50d)
 
+- Then I'll get a prompt to restart the machine, click `OK`, then restart the VM.
 
+  ![Screenshot 2025-01-03 142846](https://github.com/user-attachments/assets/5e205f41-80fb-480f-9141-1c865774b1ec)
 
+- On the sign in screen, click `Other user`, input the username `jsmith`, enter the password, then click `Enter`.
 
+  ![Screenshot 2025-01-03 215321](https://github.com/user-attachments/assets/cc14d677-2f6d-4955-ab14-50c46003a386)
+
+- John Smith now has a computer set up
 
 </Details>
 
