@@ -445,7 +445,7 @@ This section focuses on configuring a static IP address and performing domain jo
   ![Screenshot 2024-12-31 230549](https://github.com/user-attachments/assets/b33fa348-8062-4968-8f3a-bcda4a86af41)
 
 - Ethernet has a valid IPv4 address, along with a Default Gateway, DHCP, and DNS servers.
-- Ethernet 2 has an Autoconfiguration IPv4 Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
+- Ethernet 2 has an APIPA Address and lacks a Default Gateway or DNS server. This indicates that Ethernet 2 attempted to obtain an IP address from a DHCP server but couldn't find one.
 
   ![Screenshot 2024-12-31 230513](https://github.com/user-attachments/assets/76f2e1a9-2ce3-4e4b-8892-d12bc48707d4)
 
