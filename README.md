@@ -881,7 +881,7 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-03 153831](https://github.com/user-attachments/assets/4a9772c8-6cc8-4cc0-9a67-a66c277c0817)
 
-- I'll input the admin account that I created earlier `a-sabner`, enter the password, then click `Enter`.
+- I'll input the admin account `a-sabner`, enter the password, then click `Enter`.
 
   ![Screenshot 2025-01-03 143638](https://github.com/user-attachments/assets/14c5c3fe-6617-403c-beb4-88b26d11915d)
 
