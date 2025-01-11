@@ -407,7 +407,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 <Details>
   <Summary>🗂️ Creating Department Organizational Units</Summary>
 
-In this section, I will create the HR, and IT OC's for the users that I'll be creating later in my project.
+In this section, I will create the HR, and IT OU's for the users that I'll be creating later in my project.
 
 - I'll Open Active Directory Users and Computers, right-click `goodcorp.com` then go to, `New` -> `Organizational Unit`
 
