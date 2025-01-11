@@ -961,11 +961,11 @@ This section outlines the process of setting up an administrative user, joining 
 
 - Next, I'll create a password, then uncheck `User must change password at next logon`, and check `Password never expires`, then click `Next` and `Finish`.
 
-  ![Screenshot 2025-01-11 184045](https://github.com/user-attachments/assets/cf2e1949-5b2f-4bf9-9966-1c4f657d10d6)
+  ![Screenshot 2025-01-11 184319](https://github.com/user-attachments/assets/97ab16a9-0544-4f81-bb43-14f127842364)
 
+- Jane Doe has not been added to `HR`.
 
-
-
+  ![Screenshot 2025-01-11 184458](https://github.com/user-attachments/assets/54b8a3be-bc4c-4210-b3e9-03cf1ed6b29f)
 
 ### 🖥️ Join the User PC to the Domain
 
