@@ -412,7 +412,22 @@ In this section, I will create the HR, and IT OC's for the users that I'll be cr
 
 - I'll Open Active Directory Users and Computers, right-click `goodcorp.com` then go to, `New` -> `Organizational Unit`
 
-- 
+  ![Screenshot 2025-01-11 162812](https://github.com/user-attachments/assets/7328493a-d279-4ff3-9a1d-961ab070b6b3)
+
+- I'll name the OU `HR`, and uncheck `Protect Container from accidental deletion`, then click `OK`.
+
+  ![Screenshot 2025-01-11 163134](https://github.com/user-attachments/assets/a2511621-c150-448e-a4e6-94399cc61610)
+
+- Now I'll repeat the process above and create the `IT` OU.
+
+  ![Screenshot 2025-01-11 163255](https://github.com/user-attachments/assets/d4b8c8f9-87d6-490f-a809-22b0fa0aa2bf)
+
+- The HR and IT OU's have been created.
+
+  ![Screenshot 2025-01-11 163930](https://github.com/user-attachments/assets/a3222535-ec3f-4664-ac1d-eb5070cb44cb)
+
+
+
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
 
