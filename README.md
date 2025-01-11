@@ -327,7 +327,7 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 As part of my Active Directory setup, I will utilize the Active Directory Users and Computers (ADUC) tool to create and manage user accounts. Specifically, I will create a Helpdesk Admin account with elevated privileges for administrative tasks and Helpdesk Support user accounts with restricted access tailored for day-to-day support operations.
 
 <details>
-<summary>👥 Creating An Admin Account</summary>
+<summary>👥 Creating An Admin Account & Organizational Units</summary>
 
 ## 👥 Create an Admin Account
 
@@ -404,7 +404,9 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 </details>
 
-
+<Details>
+  <Summary>Creating Organizational Units</Summary>
+</Details>
 
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
