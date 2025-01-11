@@ -940,11 +940,22 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-11 171423](https://github.com/user-attachments/assets/efedba54-33d2-4d10-be34-0cf9b3e4e094)
 
+  - I could have initially created John Smith in the IT OU, but I wanted to demonstrate the ability to drag and drop users between OUs.
+
+- To move John Smith to the IT OU, simply drag and drop his account. When the confirmation pop-up appears, click `Yes`.
+
+  ![Screenshot 2025-01-11 175012](https://github.com/user-attachments/assets/0b0c7fde-8ec3-434c-8c92-990efef83639)
+  ![Screenshot 2025-01-11 175028](https://github.com/user-attachments/assets/4c275982-2bd1-4bd9-9017-1793d7ae9aa3)
+
+- John Smith is now in the IT OU.
+
+  ![Screenshot 2025-01-11 175449](https://github.com/user-attachments/assets/8d128daf-6a63-42a0-ba81-115b6b41f0b4)
+
 ### 🖥️ Join the User PC to the Domain
 
 - I set up a new Windows 10 VM in VirtualBox for the user named John Smith. Next, I'll launch VirtualBox and start the VM.
 
-- On John SMith's machine, I'll right-click `Start` and click `System`
+- On John Smith's machine, I'll right-click `Start` and click `System`
 
   ![Screenshot 2025-01-03 191946](https://github.com/user-attachments/assets/92bd1253-d5c1-4026-97e9-deae399779cc)
 
