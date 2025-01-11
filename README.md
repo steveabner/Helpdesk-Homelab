@@ -918,7 +918,7 @@ This section outlines the process of setting up an administrative user, joining 
 <Details>
   <summary>🖥️ Create and Join a Users PC to the GoodCorp Domain</summary>
 
-### 🖥️ Create a New User
+### 🖥️ Create New Users
 
 - On the `a-sabner` admin machine, I'll click `Start`, scroll down to `Windows Administrative Tools` then click `Active Directory Users and Computers`. Also, I'll go ahead and pin it to the taskbar.
 
@@ -950,6 +950,22 @@ This section outlines the process of setting up an administrative user, joining 
 - John Smith is now in the IT OU.
 
   ![Screenshot 2025-01-11 175449](https://github.com/user-attachments/assets/8d128daf-6a63-42a0-ba81-115b6b41f0b4)
+
+- Now I will create another user in the `HR` OU. I'll Right-click `HR`, go to `New`, then `User`.
+
+  ![Screenshot 2025-01-11 183851](https://github.com/user-attachments/assets/06a5e1c5-6493-4b2a-8371-102b03feef41)
+
+- I'll name this user `Jane Doe`, and set the user logon name to `janedoe`, then click `Next`.
+
+  ![Screenshot 2025-01-11 184045](https://github.com/user-attachments/assets/86d70f4e-fc01-43ac-933d-7463bd3028be)
+
+- Next, I'll create a password, then uncheck `User must change password at next logon`, and check `Password never expires`, then click `Next` and `Finish`.
+
+  ![Screenshot 2025-01-11 184045](https://github.com/user-attachments/assets/cf2e1949-5b2f-4bf9-9966-1c4f657d10d6)
+
+
+
+
 
 ### 🖥️ Join the User PC to the Domain
 
