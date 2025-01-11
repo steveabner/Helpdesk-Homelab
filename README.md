@@ -342,7 +342,7 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 ---
 
-## 👥 Create A New Organizational Unit
+## 🗂️ Create A New Organizational Unit
 
 2️⃣ Create the Admin Organizational Unit
 - I'll right-click `goodcorp.com` go to `New` and select `Organizational Unit`.
@@ -405,10 +405,14 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 </details>
 
 <Details>
-  <Summary>Creating Organizational Units</Summary>
+  <Summary>🗂️ Creating Department Organizational Units</Summary>
 </Details>
 
+In this section, I will create the HR, and IT OC's for the users that I'll be creating later in my project.
 
+- I'll Open Active Directory Users and Computers, right-click `goodcorp.com` then go to, `New` -> `Organizational Unit`
+
+- 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
 
