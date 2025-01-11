@@ -940,7 +940,7 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-11 171423](https://github.com/user-attachments/assets/efedba54-33d2-4d10-be34-0cf9b3e4e094)
 
-  - I could have initially created John Smith in the IT OU, but I wanted to demonstrate the ability to drag and drop users between OUs.
+- I could have initially created John Smith in the IT OU, but I wanted to demonstrate the ability to drag and drop users between OUs.
 
 - To move John Smith to the IT OU, simply drag and drop his account. When the confirmation pop-up appears, click `Yes`.
 
