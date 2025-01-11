@@ -916,9 +916,9 @@ This section outlines the process of setting up an administrative user, joining 
 </Details>
 
 <Details>
-  <summary>🖥️ Create Users and Join PCs to the GoodCorp Domain</summary>
+  <summary>👥 Create Users and Join PCs to the GoodCorp Domain</summary>
 
-### 🖥️ Create New Users
+### 👥 Create New Users
 
 - On the `a-sabner` admin machine, I'll click `Start`, scroll down to `Windows Administrative Tools` then click `Active Directory Users and Computers`. Also, I'll go ahead and pin it to the taskbar.
 
