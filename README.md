@@ -406,7 +406,6 @@ As part of my Active Directory setup, I will utilize the Active Directory Users 
 
 <Details>
   <Summary>🗂️ Creating Department Organizational Units</Summary>
-</Details>
 
 In this section, I will create the HR, and IT OC's for the users that I'll be creating later in my project.
 
@@ -426,7 +425,7 @@ In this section, I will create the HR, and IT OC's for the users that I'll be cr
 
   ![Screenshot 2025-01-11 163930](https://github.com/user-attachments/assets/a3222535-ec3f-4664-ac1d-eb5070cb44cb)
 
-
+</Details>
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
