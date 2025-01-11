@@ -911,7 +911,7 @@ This section outlines the process of setting up an administrative user, joining 
 
 - Now I have access to the goodcorp.com domain and corresponding folders.
 
-  ![Screenshot 2025-01-03 154608](https://github.com/user-attachments/assets/9ca1d0b2-9c53-472e-a834-57edb22ea58f)
+  ![Screenshot 2025-01-11 171138](https://github.com/user-attachments/assets/3c922a41-9aba-4eb2-8e60-aed00c65e684)
 
 </Details>
 
@@ -926,7 +926,7 @@ This section outlines the process of setting up an administrative user, joining 
 
 - I'll Expand the goodcorp.com domain, right-click the `Users` folder, go to `New` and click `User`.
 
-  ![Screenshot 2025-01-03 173616](https://github.com/user-attachments/assets/63bb7327-c7f3-4427-8db7-d13aac005464)
+  ![Screenshot 2025-01-11 171400](https://github.com/user-attachments/assets/36027764-5f29-4a4d-be65-5be9449be3bd)
 
 - I'll name the user `John Smith` and set the User logon name to `jsmith`, then click `Next`.
 
@@ -938,7 +938,7 @@ This section outlines the process of setting up an administrative user, joining 
 
 - John Smith has now been added to users.
 
-  ![Screenshot 2025-01-03 174546](https://github.com/user-attachments/assets/19afe53b-27fe-4dc3-99a7-1d28c2109531)
+  ![Screenshot 2025-01-11 171423](https://github.com/user-attachments/assets/efedba54-33d2-4d10-be34-0cf9b3e4e094)
 
 ### 🖥️ Join the User PC to the Domain
 
