@@ -556,11 +556,11 @@ In this section, I will configure Remote Access Service (RAS) and Network Addres
 </details>
 
 
-## 🗂️ DHCP Configuration
+## 🗂️ Configuring Dynamic Host Configuration Protocol (DHCP)
 With RAS and NAT set up, the next step is to configure the DHCP Server and scope. The DHCP scope defines a range of IP addresses that the server can assign to client devices on the network. These IP addresses will be dynamically allocated to devices as they connect to the network.
 
 <details>
-  <summary>🗂️ Configuring Dynamic Host Configuration Protocol (DHCP)</summary>
+  <summary>🗂️ Configure DHCP</summary>
 
 ### 🗂️ Installing DHCP features
 - Open Server Manager, click `Add roles and features` then click `Next`.
