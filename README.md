@@ -1031,7 +1031,8 @@ This section outlines the process of setting up an administrative user, joining 
 - John Smith and Jane Doe now have their own PC's.
 
   ![Screenshot 2025-01-12 144830](https://github.com/user-attachments/assets/8acd00d4-b90a-40aa-bc26-a2e3719788d8)
-  ![Screenshot 2025-01-12 144701](https://github.com/user-attachments/assets/0d89c417-3e93-4423-b651-d468019a9e66)
+  ![Screenshot 2025-01-12 144701](https://github.com/user-attachments/assets/2608b58c-aa9e-4194-b918-f176c31cdff8)
+
 
 </Details>
 
