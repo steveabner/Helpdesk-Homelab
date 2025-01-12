@@ -967,9 +967,18 @@ This section outlines the process of setting up an administrative user, joining 
 
 </Details>
 
-## ⚙️ Group Policy Management
+## 📑 Group Policy Management
 <Details>
-  <summary>Setting Group Policy</summary>
+  <summary>📑 Configuring Group Policy</summary>
+
+
+
+
+
+
+
+
+  
 </Details>
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
