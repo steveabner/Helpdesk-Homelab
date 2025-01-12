@@ -743,7 +743,7 @@ With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. Th
 
 
  
-## 👥 Configure Admin User, Install RSAT Tools, and Join PC to GoodCorp Domain
+## 👥 Configure Admin User, Create Users, Install RSAT Tools, and Join PC to GoodCorp Domain
 This section outlines the process of setting up an administrative user, joining a client PC to a domain, and installing Remote Server Administration Tools (RSAT) to manage Active Directory components.
 
 <details>
