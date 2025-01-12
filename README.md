@@ -1000,7 +1000,6 @@ This section outlines the process of setting up an administrative user, joining 
   ![Screenshot 2025-01-03 142846](https://github.com/user-attachments/assets/5e205f41-80fb-480f-9141-1c865774b1ec)
 
 - On the sign in screen, click `Other user`, input the username `jsmith`, enter the password, then click `Enter`.
-- John Smith now has a computer.
   
   ![Screenshot 2025-01-03 215321](https://github.com/user-attachments/assets/cc14d677-2f6d-4955-ab14-50c46003a386)
 
