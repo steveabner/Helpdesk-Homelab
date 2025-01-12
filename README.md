@@ -968,15 +968,34 @@ This section outlines the process of setting up an administrative user, joining 
 </Details>
 
 ## 📑 Group Policy Management
+In this section, Group Policy will be configured to manage and enforce settings across the Active Directory domain.
+
 <Details>
   <summary>📑 Configuring Group Policy</summary>
 
+- On the admin VM, I'll open Server Manager, then click `Tools`, then click `Group Policy Management`.
 
+  ![Screenshot 2025-01-12 174518](https://github.com/user-attachments/assets/0bf607d2-9f5c-4575-a40d-44020bdc57e7)
 
+- On the left pane, I'll expand to `Forest` -> `Domains` -> `goodcorp.com`, then click `Default Domain Policy` and `OK`.
 
+  ![Screenshot 2025-01-12 174851](https://github.com/user-attachments/assets/28dafb76-960d-4b46-aad2-bfcdaf62f4d9)
 
+- On the Policy window click the `Settings` tab, then click `Show All`.
 
+  ![Screenshot 2025-01-12 175657](https://github.com/user-attachments/assets/34549e2b-4c6d-4169-bcd3-049acf037de7)
 
+- I'll scroll down and look at the current policies. I specifically want to change the `Account Lockout Threshold`.
+
+  ![Screenshot 2025-01-12 181317](https://github.com/user-attachments/assets/9e14198e-a554-42e7-b6a6-6271550f6326)
+
+- To make changes to the policy, right-click `Default Domain Policy`, and click `Edit`.
+  
+  ![Screenshot 2025-01-12 181809](https://github.com/user-attachments/assets/3f5f4c31-9d29-467f-b905-3a50a098f7d7)
+
+- Under Computer Configuration, expand `Policies` -> `Windows Settings` -> `Security Settings`, then select `Account Policies`
+
+  ![Screenshot 2025-01-12 182128](https://github.com/user-attachments/assets/3519c670-1737-40ec-b5f5-3db23e40fb5a)
 
   
 </Details>
