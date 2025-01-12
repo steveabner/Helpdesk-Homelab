@@ -1033,10 +1033,12 @@ This section outlines the process of setting up an administrative user, joining 
   ![Screenshot 2025-01-12 144830](https://github.com/user-attachments/assets/8acd00d4-b90a-40aa-bc26-a2e3719788d8)
   ![Screenshot 2025-01-12 144701](https://github.com/user-attachments/assets/2608b58c-aa9e-4194-b918-f176c31cdff8)
 
-
 </Details>
 
-
+## ⚙️ Group Policy Management
+<Details>
+  <summary>Setting Group Policy</summary>
+</Details>
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
