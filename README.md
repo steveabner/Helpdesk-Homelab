@@ -1003,7 +1003,9 @@ This section outlines the process of setting up an administrative user, joining 
   
   ![Screenshot 2025-01-03 215321](https://github.com/user-attachments/assets/cc14d677-2f6d-4955-ab14-50c46003a386)
 
+- John Smith now has a PC.
 
+  ![Screenshot 2025-01-11 231645](https://github.com/user-attachments/assets/f3fb932e-7f52-4e7d-857d-3cdd374b03d5)
 
 </Details>
 
