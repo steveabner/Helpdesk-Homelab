@@ -93,14 +93,6 @@ Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT h
 
 </details>
 
-
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
-
 ## 📦 VirtualBox - Setting up an Internal Network Adapter
 The Server 2019 VM will have two NICs set up in VirtualBox: one external NIC for internet access and one internal NIC for communication within the domain and with local machines.
 
@@ -126,14 +118,6 @@ The Server 2019 VM will have two NICs set up in VirtualBox: one external NIC for
 - The VirtualBox network adapters are now set up properly. This will allow me to have static ips on one nic, while still giving access to the internet from the other.
 
 </details>
-
-
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
 
 ## 🛠️ Troubleshooting: Laggy Mouse and Display Scaling Issues
 
@@ -168,14 +152,6 @@ The mouse now moves smoothly, and the display scaling adjusts correctly, allowin
   ![Fixed Issues Screenshot](https://github.com/user-attachments/assets/f9d96384-69ab-4fc2-8c42-b7196732c051)
 
 </details>
-
-
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
 
 ## 🌐 Active Directory Domain Services (AD DS)
 
@@ -314,14 +290,6 @@ Active Directory Domain Services (AD DS) is a critical role for managing user id
 
 </details>
 
-
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
-
 ## 👥 Active Directory Users and Computers
 
 As part of my Active Directory setup, I will utilize the Active Directory Users and Computers (ADUC) tool to create and manage user accounts. Specifically, I will create a Helpdesk Admin account with elevated privileges for administrative tasks and Helpdesk Support user accounts with restricted access tailored for day-to-day support operations.
@@ -427,11 +395,6 @@ In this section, I will create the HR, and IT OU's for the users that I'll be cr
 
 </Details>
 
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
-
 ## 🖥️ Configuring a Static IP
 This section focuses on configuring a static IP address and performing domain joining on a Windows Server 2019 instance. The goal is to establish a stable network connection and integrate the server into an Active Directory domain for centralized management
 
@@ -509,15 +472,7 @@ This section focuses on configuring a static IP address and performing domain jo
   
 </details>
 
-
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
-
-## 🖥️📶🗂️ RAS, NAT, and DHCP Configuration
+## 🖥️📶 RAS & NAT Configuration
 In this section of my homelab project, I will configure Remote Access Service (RAS), Network Address Translation (NAT), and DHCP to provide client devices with internet access through the domain. This setup includes enabling RAS for remote connectivity, configuring NAT for IP address translation, and setting up DHCP to dynamically assign IP addresses to client devices.
 
 <details>
@@ -566,14 +521,6 @@ In this section of my homelab project, I will configure Remote Access Service (R
 
 </details>
 
-
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
-
 <details>
   <summary>📶 Configuring Network Address Translation (NAT)</summary>
 
@@ -609,13 +556,7 @@ In this section of my homelab project, I will configure Remote Access Service (R
 </details>
 
 
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
-
+## 🗂️ DHCP Configuration
 <details>
   <summary>🗂️ Configuring Dynamic Host Configuration Protocol (DHCP)</summary>
 
@@ -653,14 +594,6 @@ In this section of my homelab project, I will configure Remote Access Service (R
 - Setup complete! In the next section, I'll set up the DHCP scope.
   
 </details>
-
-
-
-
-<!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
-
-
-
 
 ## 🗂️ DHCP Scope Setup
 With RAS, NAT, and DHCP set up, the next step is to configure the DHCP scope. The DHCP scope defines a range of IP addresses that the server can assign to client devices on the network. These IP addresses will be dynamically allocated to devices as they connect to the network.
