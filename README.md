@@ -1007,6 +1007,32 @@ This section outlines the process of setting up an administrative user, joining 
 
   ![Screenshot 2025-01-11 231645](https://github.com/user-attachments/assets/f3fb932e-7f52-4e7d-857d-3cdd374b03d5)
 
+- On the other VM, I'll do the same process for `Jane Doe`. Right-click `Start` go to `System`, then click `Rename this PC (advanced)`.
+
+  ![Screenshot 2025-01-12 144016](https://github.com/user-attachments/assets/7dba1ac9-24e8-40c2-94d0-c29909e35127)
+
+- I'll click `Change` on the pop-up, then rename the pc to `janedoe` and set the domain to `goodcorp.com`, then click `OK`.
+
+  ![Screenshot 2025-01-12 143253](https://github.com/user-attachments/assets/f6324aa7-aa49-4d9c-9f62-4f05bd4051e2)
+
+- I'll enter the username `janedoe`, enter the password, then click `OK`
+
+  ![Screenshot 2025-01-12 143317](https://github.com/user-attachments/assets/1f23e7f8-dd31-4825-85ed-0f8a094c645a)
+
+- Click `OK` on the welcome screen, then restart the machine.
+
+  ![Screenshot 2025-01-12 143330](https://github.com/user-attachments/assets/4d55a0eb-6e2d-450a-a190-6ff7c705049a)
+  ![Screenshot 2025-01-12 143341](https://github.com/user-attachments/assets/28ff9277-e0a4-4626-bb01-54cd44739da4)
+
+- Once the VM restarts, we can log in as Jane Doe.
+
+  ![Screenshot 2025-01-12 143506](https://github.com/user-attachments/assets/1d0628fa-7bfa-4631-8aee-b63f8b04f245)
+
+- John Smith and Jane Doe now have their own PC's.
+
+  ![Screenshot 2025-01-12 144830](https://github.com/user-attachments/assets/8acd00d4-b90a-40aa-bc26-a2e3719788d8)
+  ![Screenshot 2025-01-12 144701](https://github.com/user-attachments/assets/0d89c417-3e93-4423-b651-d468019a9e66)
+
 </Details>
 
 
