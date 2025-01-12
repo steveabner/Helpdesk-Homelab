@@ -969,7 +969,7 @@ This section outlines the process of setting up an administrative user, joining 
 
 ### 🖥️ Join the User PC to the Domain
 
-- I set up a new Windows 10 VM in VirtualBox for John Smith. Next, I'll launch VirtualBox and start the VM.
+- I set up new Windows 10 VMs in VirtualBox for John Smith and Jane Doe. Next, I'll start John's VM.
 
 - On John Smith's machine, I'll right-click `Start` and click `System`
 
