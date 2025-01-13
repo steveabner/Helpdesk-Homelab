@@ -1020,5 +1020,15 @@ In this section, Group Policy will be configured to manage and enforce settings 
   
 </Details>
 
+<details>
+  <summary>📑 Configuring Password Policy</summary>
+
+
+
+
+
+  
+</details>
+
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
