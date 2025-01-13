@@ -1017,6 +1017,10 @@ In this section, Group Policy will be configured to manage and enforce settings 
 - The Account Lockout Policy has been set.
 
   ![Screenshot 2025-01-12 191119](https://github.com/user-attachments/assets/716b1ae5-f654-4660-9596-4b19ff26b4d1)
+
+- Now go back to `Group Policy Mangement`, and right-click `Default Domain Policy`, then click `Enforced`.
+
+  ![Screenshot 2025-01-12 212539](https://github.com/user-attachments/assets/18820a2d-25ea-4dc7-8d0e-11dbeb002137)
   
 </Details>
 
@@ -1035,6 +1039,12 @@ In this section, Group Policy will be configured to manage and enforce settings 
 - The maximum password age has been set to `90 days`.
 
   ![Screenshot 2025-01-12 212230](https://github.com/user-attachments/assets/38266f16-3977-40c6-bdf6-e7cf94cc7050)
+
+- Now go back to `Group Policy Mangement`, and right-click `Default Domain Policy`, then click `Enforced`.
+
+  ![Screenshot 2025-01-12 212539](https://github.com/user-attachments/assets/18820a2d-25ea-4dc7-8d0e-11dbeb002137)
+
+
 
 </details>
 
