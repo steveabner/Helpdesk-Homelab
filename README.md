@@ -973,7 +973,7 @@ In this section, Group Policy will be configured to manage and enforce settings 
 <Details>
   <summary>📑 Configuring Account Lockout Policy</summary>
 
-- On the admin VM, I'll open Server Manager, then click `Tools`, then click `Group Policy Management`.
+- On the Admin VM, I'll open Server Manager, click `Tools`, then click `Group Policy Management`.
 
   ![Screenshot 2025-01-12 174518](https://github.com/user-attachments/assets/0bf607d2-9f5c-4575-a40d-44020bdc57e7)
 
