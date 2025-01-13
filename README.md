@@ -1018,7 +1018,7 @@ In this section, Group Policy will be configured to manage and enforce settings 
 
   ![Screenshot 2025-01-12 191119](https://github.com/user-attachments/assets/716b1ae5-f654-4660-9596-4b19ff26b4d1)
 
--  Now I'll select `Password Policy`.
+- Now I'll select `Password Policy`.
 
   ![Screenshot 2025-01-12 211658](https://github.com/user-attachments/assets/1ffbcca7-0dd6-44fc-9303-be0db316d3e8)
 
