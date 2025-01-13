@@ -971,7 +971,7 @@ This section outlines the process of setting up an administrative user, joining 
 In this section, Group Policy will be configured to manage and enforce settings across the Active Directory domain.
 
 <Details>
-  <summary>📑 Configuring Account Lockout Policy</summary>
+  <summary>📑 Configuring Password & Account Lockout Policies</summary>
 
 - On the Admin VM, I'll open Server Manager, click `Tools`, then click `Group Policy Management`.
 
@@ -1018,16 +1018,7 @@ In this section, Group Policy will be configured to manage and enforce settings 
 
   ![Screenshot 2025-01-12 191119](https://github.com/user-attachments/assets/716b1ae5-f654-4660-9596-4b19ff26b4d1)
 
-- Now go back to `Group Policy Mangement`, and right-click `Default Domain Policy`, then click `Enforced`.
-
-  ![Screenshot 2025-01-12 212539](https://github.com/user-attachments/assets/18820a2d-25ea-4dc7-8d0e-11dbeb002137)
-  
-</Details>
-
-<details>
-  <summary>📑 Configuring Password Policy</summary>
-
-- In the Group Policy Management Editor, expand `Policies` -> `Windows Settings` -> `Security Settings` -> `Account Policies`, then select `Password Policy`.
+-  Now I'll select `Password Policy`.
 
   ![Screenshot 2025-01-12 211658](https://github.com/user-attachments/assets/1ffbcca7-0dd6-44fc-9303-be0db316d3e8)
 
@@ -1040,11 +1031,13 @@ In this section, Group Policy will be configured to manage and enforce settings 
 
   ![Screenshot 2025-01-12 212230](https://github.com/user-attachments/assets/38266f16-3977-40c6-bdf6-e7cf94cc7050)
 
-- Now go back to `Group Policy Mangement`, and right-click `Default Domain Policy`, then click `Enforced`.
+- Now go back to `Group Policy Management`, right-click `Default Domain Policy`, then click `Enforced`.
 
   ![Screenshot 2025-01-12 212539](https://github.com/user-attachments/assets/18820a2d-25ea-4dc7-8d0e-11dbeb002137)
 
+- Now I'll go back to `Group Policy Management` click `Refresh` and make sure the changes went into effect.
 
+  ![Screenshot 2025-01-12 213130](https://github.com/user-attachments/assets/9582e0f4-1dc5-4158-b504-6b3e14e7af3f)
 
 </details>
 
