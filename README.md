@@ -1023,11 +1023,19 @@ In this section, Group Policy will be configured to manage and enforce settings 
 <details>
   <summary>📑 Configuring Password Policy</summary>
 
+- In the Group Policy Management Editor, expand `Policies` -> `Windows Settings` -> `Security Settings` -> `Account Policies`, then select `Password Policy`.
 
+  ![Screenshot 2025-01-12 211658](https://github.com/user-attachments/assets/1ffbcca7-0dd6-44fc-9303-be0db316d3e8)
 
+- I'll open `Maximum Password Age` and change it to `90 Days`, Click `Apply`, then `OK`.
 
+  ![Screenshot 2025-01-12 211909](https://github.com/user-attachments/assets/f161180e-41ce-495e-a9f5-2bd372ee6bcf)
+  ![Screenshot 2025-01-12 211934](https://github.com/user-attachments/assets/6fbaceb3-d440-4e42-9867-389170b833d7)
 
-  
+- The maximum password age has been set to `90 days`.
+
+  ![Screenshot 2025-01-12 212230](https://github.com/user-attachments/assets/38266f16-3977-40c6-bdf6-e7cf94cc7050)
+
 </details>
 
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
