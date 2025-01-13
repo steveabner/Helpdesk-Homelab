@@ -971,7 +971,7 @@ This section outlines the process of setting up an administrative user, joining 
 In this section, Group Policy will be configured to manage and enforce settings across the Active Directory domain.
 
 <Details>
-  <summary>📑 Configuring Group Policy</summary>
+  <summary>📑 Configuring Account Lockout Policy</summary>
 
 - On the admin VM, I'll open Server Manager, then click `Tools`, then click `Group Policy Management`.
 
@@ -993,10 +993,30 @@ In this section, Group Policy will be configured to manage and enforce settings 
   
   ![Screenshot 2025-01-12 181809](https://github.com/user-attachments/assets/3f5f4c31-9d29-467f-b905-3a50a098f7d7)
 
-- Under Computer Configuration, expand `Policies` -> `Windows Settings` -> `Security Settings`, then select `Account Policies`
+- Under Computer Configuration, expand `Policies` -> `Windows Settings` -> `Security Settings` -> `Account Policies`, then select `Account Lockout Policy`.
 
-  ![Screenshot 2025-01-12 182128](https://github.com/user-attachments/assets/3519c670-1737-40ec-b5f5-3db23e40fb5a)
+  ![Screenshot 2025-01-12 182426](https://github.com/user-attachments/assets/7a8cc3cb-b432-4c67-9f8d-df67ab12a899)
 
+- Double-click `Account lockout duration`
+
+  ![Screenshot 2025-01-12 183625](https://github.com/user-attachments/assets/404c8469-95ac-4fc3-b3aa-05fa4811390e)
+
+- I'll check `Define this policy setting` and then set it to `30 Minutes`. Click `Apply` then `OK`
+
+  ![Screenshot 2025-01-12 183716](https://github.com/user-attachments/assets/d4ebe8a6-87d5-4f17-bd8d-4ab60f4c8573)
+  ![Screenshot 2025-01-12 183729](https://github.com/user-attachments/assets/9e21ef56-7abc-4d18-b12b-a644ed777d11)
+
+- I'll double-click `Account Lockout Threshold` and set it to `4`, click `Apply`, then `OK`.
+
+  ![Screenshot 2025-01-12 190700](https://github.com/user-attachments/assets/da619e8d-e52f-4e84-a64b-ade0fbf316e8)
+
+- I'll double click `Reset account lockout counter after` and set it for `30 Minutes`, then click `Apply` and `OK`.
+
+  ![Screenshot 2025-01-12 190949](https://github.com/user-attachments/assets/83228f5b-f5b3-40e2-8fe0-9373e0fde09e)
+
+- The Account Lockout Policy has been set.
+
+  ![Screenshot 2025-01-12 191119](https://github.com/user-attachments/assets/716b1ae5-f654-4660-9596-4b19ff26b4d1)
   
 </Details>
 
