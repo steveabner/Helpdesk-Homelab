@@ -985,7 +985,7 @@ In this section, Group Policy will be configured to manage and enforce settings 
 
   ![Screenshot 2025-01-12 175657](https://github.com/user-attachments/assets/34549e2b-4c6d-4169-bcd3-049acf037de7)
 
-- I'll scroll down and look at the current policies. I specifically want to change the `Account Lockout Threshold`.
+- I'll scroll down and look at the current policies. I specifically want to change the `Maximum Password Age` and `Account Lockout Threshold`.
 
   ![Screenshot 2025-01-12 181317](https://github.com/user-attachments/assets/9e14198e-a554-42e7-b6a6-6271550f6326)
 
