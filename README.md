@@ -1041,5 +1041,11 @@ In this section, Group Policy will be configured to manage and enforce settings 
 
 </details>
 
+## 🗂️ File Shares
+
+<details>
+  <summary>🗂️ Setting up File Shares</summary>
+
+</details>
 <!-- 1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟 -->
 
