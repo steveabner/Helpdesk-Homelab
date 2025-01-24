@@ -1,5 +1,7 @@
 # Active Directory Home Lab
 
+## This project is a work in progress and will be updated as I continue building the homelab. Thank you.
+
 Welcome to my Helpdesk Homelab project! This setup demonstrates a simulated IT helpdesk environment using **VirtualBox**, **Windows Server 2019**, and **Active Directory**. It showcases core IT administrative skills, such as user account management, group policy configuration, and basic troubleshooting techniques, all designed to replicate real-world scenarios.
 
 ![Helpdesk Diagram drawio](https://github.com/user-attachments/assets/8f702151-2c27-45c6-87da-01b321d7d5ad)
